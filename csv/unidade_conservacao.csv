@@ -1,0 +1,495 @@
+id_unidade_conservacao,nome,categoria,esfera_administrativa,tipo,area_amazonia_ha,id_estado
+1,Reserva Particular Do Patrimônio Natural Fazenda Estância Dorochê,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+2,Reserva Particular Do Patrimônio Natural Jubran,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+3,Reserva Particular Do Patrimônio Natural Estância Ecológica Sesc - Pantanal,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+5,Estação Ecológica De Taiamã,Estação Ecológica,Federal,Proteção Integral,0.0,5
+6,Parque Estadual Do Guirá,Parque,Estadual,Proteção Integral,0.0,5
+7,Parque Estadual Encontro Das Águas,Parque,Estadual,Proteção Integral,0.0,5
+8,Parque Estadual Marinho Do Parcel De Manuel Luís,Parque,Estadual,Proteção Integral,0.0,4
+9,Parque Estadual Marinho Banco Do Tarol,Parque,Estadual,Proteção Integral,0.0,4
+10,Parque Estadual Marinho Banco Do Álvaro,Parque,Estadual,Proteção Integral,0.0,4
+11,Reserva Biológica Do Lago Piratuba,Reserva Biológica,Federal,Proteção Integral,388082.0,2
+12,Área De Proteção Ambiental De Algodoal-Maiandeua,Área de Proteção Ambiental,Estadual,Uso Sustentável,2818.0,6
+13,Refúgio De Vida Silvestre Da Ilha Do Canela,Refúgio de Vida Silvestre,Municipal,Proteção Integral,170.0,6
+14,Área De Relevante Interesse Ecológico Projeto Dinâmica Biológica De Fragmentos Florestais,Área de Relevante Interesse Ecológico,Federal,Uso Sustentável,3336.0,3
+15,Parque Nacional De Anavilhanas,Parque,Federal,Proteção Integral,350240.0,3
+16,Estação Ecológica De Jutaí-Solimões,Estação Ecológica,Federal,Proteção Integral,289514.0,3
+17,Estação Ecológica De Maracá,Estação Ecológica,Federal,Proteção Integral,154222.0,8
+18,Estação Ecológica Juami-Japurá,Estação Ecológica,Federal,Proteção Integral,831355.0,3
+19,Floresta Nacional De Balata-Tufari,Floresta,Federal,Uso Sustentável,1088825.0,3
+20,Floresta Nacional De Itaituba I,Floresta,Federal,Uso Sustentável,213085.0,6
+21,Floresta Nacional De Itaituba Ii,Floresta,Federal,Uso Sustentável,397751.0,6
+22,Floresta Nacional De Roraima,Floresta,Federal,Uso Sustentável,169628.0,8
+23,Floresta Nacional De Saracá-Taquera,Floresta,Federal,Uso Sustentável,441288.0,6
+24,Floresta Nacional Do Bom Futuro,Floresta,Federal,Uso Sustentável,98359.0,7
+25,Floresta Nacional Do Jatuarana,Floresta,Federal,Uso Sustentável,568289.0,3
+26,Floresta Nacional Do Tapajós,Floresta,Federal,Uso Sustentável,525060.0,6
+27,Parque Nacional Viruá,Parque,Federal,Proteção Integral,280984.0,8
+28,Reserva Biológica Do Gurupi,Reserva Biológica,Federal,Proteção Integral,271465.0,4
+29,Reserva Biológica Do Jaru,Reserva Biológica,Federal,Proteção Integral,346863.3406,7
+30,Reserva Biológica Do Rio Trombetas,Reserva Biológica,Federal,Proteção Integral,407759.0,6
+31,Reserva Biológica Do Uatumã,Reserva Biológica,Federal,Proteção Integral,938602.0,3
+32,Reserva Extrativista Chocoaré-Mato Grosso,Reserva Extrativista,Federal,Uso Sustentável,4618.0,6
+33,Reserva Extrativista Lago Do Cuniã,Reserva Extrativista,Federal,Uso Sustentável,76410.0,7
+34,Reserva Extrativista Do Médio Juruá,Reserva Extrativista,Federal,Uso Sustentável,286957.0,3
+35,Parque Nacional Do Jamanxim,Parque,Federal,Proteção Integral,862897.0,6
+36,Área De Proteção Ambiental Do Tapajós,Área de Proteção Ambiental,Federal,Uso Sustentável,2040363.0,6
+37,Floresta Nacional Do Crepori,Floresta,Federal,Uso Sustentável,740396.0,6
+38,Floresta Nacional Do Amaná,Floresta,Federal,Uso Sustentável,682677.0,6
+39,Reserva Particular Do Patrimônio Natural Vale Das Antas,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,62.0,7
+40,Reserva Particular Do Patrimônio Natural Reserva Ecológica José Gimenes Soares,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,195.0,5
+41,Reserva Particular Do Patrimônio Natural Seringal Triunfo,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,9996.0,2
+42,Reserva Particular Do Patrimônio Natural Reserva Sol Nascente,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,19.0,3
+43,Reserva Extrativista Do Rio Cajari,Reserva Extrativista,Federal,Uso Sustentável,532397.0,2
+44,Reserva Particular Do Patrimônio Natural Lote Cristalino,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,604.0,5
+45,"Floresta Estadual De Rendimento Sustentado Do Rio Madeira ""B""",Floresta,Estadual,Uso Sustentável,47356.0,7
+46,Estação Ecológica Samuel,Estação Ecológica,Estadual,Proteção Integral,68993.0,7
+47,Parque Estadual De Guajará-Mirim,Parque,Estadual,Proteção Integral,221173.0,7
+48,Estação Ecológica Serra Dos Três Irmãos,Estação Ecológica,Estadual,Proteção Integral,88960.0,7
+49,Reserva Extrativista Jaci-Paraná,Reserva Extrativista,Estadual,Uso Sustentável,197094.0,7
+50,Parque Estadual De Corumbiara,Parque,Estadual,Proteção Integral,380079.385,7
+51,Floresta Estadual Do Rio Pardo,Floresta,Estadual,Uso Sustentável,30834.0,7
+52,Área De Proteção Ambiental Do Rio Pardo,Área de Proteção Ambiental,Estadual,Uso Sustentável,113814.0,7
+53,Reserva De Desenvolvimento Sustentável Mamirauá,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,1319952.0,3
+54,Área De Proteção Ambiental De Presidente Figueiredo - Caverna Do Moroaga,Área de Proteção Ambiental,Estadual,Uso Sustentável,408561.0,3
+55,Área De Proteção Ambiental Margem Direita Do Rio Negro- Setor Paduari-Solimões,Área de Proteção Ambiental,Estadual,Uso Sustentável,461739.0,3
+56,Área De Proteção Ambiental Margem Esquerda Do Rio Negro-Setor Tarumã Açu-Tarumã Mirima,Área de Proteção Ambiental,Estadual,Uso Sustentável,55937.0,3
+57,Área De Proteção Ambiental Margem Esquerda Do Rio Negro-Setor Aturiá-Apuauzinho,Área de Proteção Ambiental,Estadual,Uso Sustentável,568330.8129,3
+58,Parque Estadual Rio Negro Setor Sul,Parque,Estadual,Proteção Integral,77952.0,3
+59,Parque Estadual Rio Negro Setor Norte,Parque,Estadual,Proteção Integral,148118.0,3
+60,Reserva Extrativista Do Rio Gregório,Reserva Extrativista,Estadual,Uso Sustentável,424730.0,3
+61,Parque Estadual Das Nascentes,Parque,Estadual,Proteção Integral,244223.0,8
+62,Reserva De Desenvolvimento Sustentável Campina,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,220688.0,8
+63,Parque Estadual Do Utinga,Parque,Estadual,Proteção Integral,1398.0,6
+64,Área De Proteção Ambiental Da Região Metrolpolitana De Belém,Área de Proteção Ambiental,Estadual,Uso Sustentável,5647.0,6
+65,Área De Proteção Ambiental Paytuna,Área de Proteção Ambiental,Estadual,Uso Sustentável,57418.0,6
+66,Parque Estadual De Monte Alegre,Parque,Estadual,Proteção Integral,3615.0,6
+67,Floresta Estadual De Faro,Floresta,Estadual,Uso Sustentável,614016.0,6
+68,Parque Estadual Do Bacanga,Parque,Estadual,Proteção Integral,3165.0,4
+69,Parque Estadual Do Sítio Do Rangedor,Parque,Estadual,Proteção Integral,121.0,4
+70,Estação Ecológica Do Rio Ronuro,Estação Ecológica,Estadual,Proteção Integral,102669.0,5
+71,Parque Estadual Tucumã,Parque,Estadual,Proteção Integral,81020.0,5
+72,Parque Estadual Serra Santa Bárbara,Parque,Estadual,Proteção Integral,120433.0,5
+73,Reserva Extrativista Guariba-Roosevelt,Reserva Extrativista,Estadual,Uso Sustentável,137678.0,5
+74,Parque Estadual Do Xingu,Parque,Estadual,Proteção Integral,95331.0,5
+75,Estação Ecológica Do Rio Roosevelt,Estação Ecológica,Estadual,Proteção Integral,97967.0,5
+76,Reserva Particular Do Patrimônio Natural Fazenda Loanda,Reserva Particular do Patrimônio Natural,Estadual,Uso Sustentável,515.0,5
+77,Monumento Natural Morro Chico Mendes,Monumento Natural,Municipal,Proteção Integral,191.0,7
+78,Area De Protecao Ambiental Xeriuini,Área de Proteção Ambiental,Municipal,Uso Sustentável,1671694.0,8
+79,Parque Natural Municipal Canindé,Parque,Municipal,Proteção Integral,7.0,7
+80,Parque Natural Municipal Raimundo Paraguassu De Oliveira,Parque,Municipal,Proteção Integral,391.0,7
+81,Parque Natural Municipal Lagoa Das Garças,Parque,Municipal,Proteção Integral,39.0,5
+82,Parque Natural Municipal Colonizador Jose Bianchini,Parque,Municipal,Proteção Integral,14.0,5
+83,Parque Natural Municipal Vale Do Esperança,Parque,Municipal,Proteção Integral,117.0,5
+84,Estação Ecológica De Maracá Jipioca,Estação Ecológica,Federal,Proteção Integral,52435.0,2
+85,Parque Nacional Do Cabo Orange,Parque,Federal,Proteção Integral,443015.0,2
+86,Reserva Extrativista Maracanã,Reserva Extrativista,Federal,Uso Sustentável,21601.0,6
+87,Reserva Extrativista Mãe Grande De Curuçá,Reserva Extrativista,Federal,Uso Sustentável,24327.0,6
+88,Reserva Extrativista Marinha Arai-Peroba,Reserva Extrativista,Federal,Uso Sustentável,39967.0,6
+89,Reserva Extrativista Marinha Caetétaperaçu,Reserva Extrativista,Federal,Uso Sustentável,31037.0,6
+90,Reserva Extrativista Marinha De Gurupi-Piriá,Reserva Extrativista,Federal,Uso Sustentável,50053.0,6
+91,Reserva Extrativista Marinha Tracuateua,Reserva Extrativista,Federal,Uso Sustentável,20735.0,6
+92,Reserva Extrativista Marinha De Soure,Reserva Extrativista,Federal,Uso Sustentável,16959.0,6
+93,Reserva Extrativista De Cururupu,Reserva Extrativista,Federal,Uso Sustentável,91113.0,4
+94,Reserva Extrativista Marinha Mocapajuba,Reserva Extrativista,Federal,Uso Sustentável,14863.0,6
+95,Reserva Extrativista Marinha Mestre Lucindo,Reserva Extrativista,Federal,Uso Sustentável,19453.67494,6
+96,Reserva Extrativista Marinha Cuinarana,Reserva Extrativista,Federal,Uso Sustentável,11019.0,6
+97,Reserva Extrativista Itapetininga,Reserva Extrativista,Federal,Uso Sustentável,15568.0,4
+98,Reserva Extrativista Arapiranga-Tromaí,Reserva Extrativista,Federal,Uso Sustentável,37752.0,4
+99,Reserva Extrativista Filhos Do Mangue,Reserva Extrativista,Federal,Uso Sustentável,20998.0,6
+100,Reserva Extrativista Viriandeua,Reserva Extrativista,Federal,Uso Sustentável,22542.0,6
+101,Área De Proteção Ambiental Do Arquipélago Do Marajó,Área de Proteção Ambiental,Estadual,Uso Sustentável,4514431.0,6
+102,Monumento Natural Atalaia,Monumento Natural,Estadual,Proteção Integral,229.0,6
+103,Reserva Biológica Do Parazinho,Reserva Biológica,Estadual,Proteção Integral,156.0,2
+104,Área De Proteção Ambiental Das Reentrâncias Maranhenses,Área de Proteção Ambiental,Estadual,Uso Sustentável,1079341.0,4
+105,Área De Relevante Interesse Ecológico Javari Buriti,Área de Relevante Interesse Ecológico,Federal,Uso Sustentável,13177.0,3
+106,Floresta Nacional De Tefé,Floresta,Federal,Uso Sustentável,865127.0,3
+107,Parque Nacional Do Jaú,Parque,Federal,Proteção Integral,2367358.0,3
+108,Reserva Extrativista Auatí-Paraná,Reserva Extrativista,Federal,Uso Sustentável,146951.0,3
+109,Reserva Extrativista Do Baixo Juruá,Reserva Extrativista,Federal,Uso Sustentável,178039.0,3
+110,Reserva Extrativista Do Rio Jutaí,Reserva Extrativista,Federal,Uso Sustentável,275516.6963,3
+111,Reserva Extrativista Rio Unini,Reserva Extrativista,Federal,Uso Sustentável,849694.5084,3
+112,Reserva Particular Do Patrimônio Natural Bela Vista,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,27.0,3
+113,Reserva Particular Do Patrimônio Natural Adão E Eva,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,100.0,3
+114,Reserva Particular Do Patrimônio Natural Estância Rivas,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,96.0,3
+115,Reserva Particular Do Patrimônio Natural Reserva Dr. Phelippe Daou,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,65.0,3
+116,Reserva Particular Do Patrimônio Natural Sítio Bela Vista,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,63.0,3
+117,Reserva Particular Do Patrimônio Natural Santuário,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,58.0,3
+118,Reserva Particular Do Patrimônio Natural Sítio Morada Do Sol,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,42.0,3
+119,Reserva Particular Do Patrimônio Natural Reserva Dos Quatro Elementos,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,24.0,3
+120,Reserva Particular Do Patrimônio Natural Reserva Dos Arqueiros,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,24.0,3
+121,Reserva Particular Do Patrimônio Natural Laço De Amor,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,8.0,3
+122,Reserva Particular Do Patrimônio Natural Morada Do Sol E Da Lua,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,7.0,3
+123,Reserva De Desenvolvimento Sustentável Amanã,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,2303482.0,3
+124,Reserva De Desenvolvimento Sustentável Uacarí,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,620306.0,3
+125,Reserva De Desenvolvimento Sustentável Do Uatumã,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,423462.6715,3
+126,Reserva Extrativista Catuá-Ipixuna,Reserva Extrativista,Estadual,Uso Sustentável,212325.0,3
+127,Floresta Estadual Rio Urubu,Floresta,Estadual,Uso Sustentável,27051.0,3
+128,Reserva De Desenvolvimento Sustentável Do Rio Negro,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,102979.0,3
+129,Reserva De Desenvolvimento Sustentavel Puranga Conquista,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,86029.0,3
+130,Reserva De Desenvolvimento Sustentável Do Tupé,Reserva de Desenvolvimento Sustentável,Municipal,Uso Sustentável,12175.0,3
+131,Area De Proteção Ambiental Taruma/Ponta Negra,Área de Proteção Ambiental,Municipal,Uso Sustentável,22632.0,3
+132,Parque Municipal Da Cacimba,Parque,Municipal,Proteção Integral,7.0,3
+133,Área De Proteção Ambiental Tapuruquara,Área de Proteção Ambiental,Municipal,Uso Sustentável,3042506.0,3
+134,Floresta Nacional De Altamira,Floresta,Federal,Uso Sustentável,725544.0,6
+135,Reserva Particular Do Patrimônio Natural Tupaquiri,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,883.0,8
+136,Reserva Particular Do Patrimônio Natural Reserva Mani,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,110.0,8
+137,Reserva Particular Do Patrimônio Natural Seringal Assunção,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,590.0,7
+138,Reserva Particular Do Patrimônio Natural Parque Natural Leonildo Ferreira 2,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,981.0,7
+139,Reserva Particular Do Patrimônio Natural Água Boa,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,45.0,7
+140,Reserva Particular Do Patrimônio Natural Parque Natural Leonildo Ferreira 1,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,995.0,7
+141,Reserva Particular Do Patrimônio Natural Sesc Tepequém,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,55.0,8
+142,Reserva Particular Do Patrimônio Natural Tibiriçá,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,400.0,6
+143,Reserva Particular Do Patrimônio Natural Sumaúma,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,6.0,6
+144,Reserva Particular Do Patrimônio Natural Fazenda Pioneira,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,396.0,6
+145,Reserva Particular Do Patrimônio Natural Nadir Júnior,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,2000.0,6
+146,Reserva Particular Do Patrimônio Natural Reserva Ecológica América Amazônica,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,4790.0,5
+147,Reserva Particular Do Patrimônio Natural Reserva Ecológica Lourdes Félix Soares,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,781.0645186,5
+148,Reserva Particular Do Patrimônio Natural Reserva Ecológica Verde Amazônia,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,10322.0,5
+149,"Reserva Particular Do Patrimônio Natural Fazenda Santo Antonio Do Pindaré,Gleba Barra Da Jurema",Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,2152.0,4
+150,"Reserva Particular Do Patrimônio Natural Fazenda São José, Gleba Itinga A - Lote 390",Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,705.0,4
+151,Reserva Particular Do Patrimônio Natural Amoreira,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,347.0,4
+152,Reserva Particular Do Patrimônio Natural Fazenda Boa Esperança,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,75.0,4
+153,Reserva Particular Do Patrimônio Natural Estância Pedreiras,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,38.0,4
+154,Reserva Particular Do Patrimônio Natural Sítio Jaquarema,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,8.0,4
+155,Reserva Particular Do Patrimônio Natural Jaguarema,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,3.0,4
+156,Reserva Particular Do Patrimônio Natural Retiro Paraíso,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,47.0,2
+157,Reserva Particular Do Patrimônio Natural Retiro Boa Esperança,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,43.0,2
+158,Reserva Particular Do Patrimônio Natural Lote Urbano,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,17.0,2
+159,Reserva Particular Do Patrimônio Natural Aldeia Ekinox,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,11.0,2
+160,Reserva Particular Do Patrimônio Natural Dr. Daisaku Ikeda,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,50.0,3
+161,Reserva Particular Do Patrimônio Natural Santuário Ecológico Amazônia Viva,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,38.0,1
+162,Reserva Particular Do Patrimônio Natural Fazenda Terra Nova,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,1543.0,5
+163,Refúgio De Vida Silvestre Do Sauim-De-Coleira,Refúgio de Vida Silvestre,Federal,Proteção Integral,15290.0,3
+164,Floresta Estadual De Rendimento Sustentado Rio Vermelho (C),Floresta,Estadual,Uso Sustentável,4095.0,7
+165,Floresta Estadual De Rendimento Sustentado Do Rio Machado,Floresta,Estadual,Uso Sustentável,175781.0,7
+166,Reserva Extrativista Angelim,Reserva Extrativista,Estadual,Uso Sustentável,8929.0,7
+167,Reserva Extrativista Maracatiara,Reserva Extrativista,Estadual,Uso Sustentável,9512.0,7
+168,Reserva Extrativista Freijó,Reserva Extrativista,Estadual,Uso Sustentável,601.0,7
+169,Reserva Extrativista Piquiá,Reserva Extrativista,Estadual,Uso Sustentável,1450.0,7
+170,Reserva Extrativista Mogno,Reserva Extrativista,Estadual,Uso Sustentável,2451.735391,7
+171,Reserva Extrativista Do Itaúba,Reserva Extrativista,Estadual,Uso Sustentável,1815.0,7
+172,Reserva Extrativista Ipê,Reserva Extrativista,Estadual,Uso Sustentável,815.0,7
+173,Reserva Extrativista Jatobá,Reserva Extrativista,Estadual,Uso Sustentável,1253.0,7
+174,Reserva Extrativista Massaranduba,Reserva Extrativista,Estadual,Uso Sustentável,5568.0,7
+175,Reserva Extrativista Sucupira,Reserva Extrativista,Estadual,Uso Sustentável,3058.0,7
+176,Reserva Extrativista Castanheira,Reserva Extrativista,Estadual,Uso Sustentável,9924.0,7
+177,Reserva Extrativista Aquariquara,Reserva Extrativista,Estadual,Uso Sustentável,17923.0,7
+178,Reserva Extrativista Roxinho,Reserva Extrativista,Estadual,Uso Sustentável,964.0,7
+179,Reserva Extrativista Seringueira,Reserva Extrativista,Estadual,Uso Sustentável,556.1932173,7
+180,Reserva Extrativista Garrote,Reserva Extrativista,Estadual,Uso Sustentável,860.0,7
+181,Floresta Estadual De Rendimento Sustentado Mutum,Floresta,Estadual,Uso Sustentável,11221.0,7
+182,Floresta Estadual De Rendimento Sustentado Tucano,Floresta,Estadual,Uso Sustentável,725.0,7
+183,Floresta Estadual De Rendimento Sustentado Gavião,Floresta,Estadual,Uso Sustentável,456.0,7
+184,Floresta Estadual De Rendimento Sustentado Cedro,Floresta,Estadual,Uso Sustentável,2568.0,7
+185,Reserva Biológica Traçadal,Reserva Biológica,Estadual,Proteção Integral,24150.0,7
+186,Reserva Extrativista Curralinho,Reserva Extrativista,Estadual,Uso Sustentável,1757.0,7
+187,Reserva Extrativista Rio Pacaás Novos,Reserva Extrativista,Estadual,Uso Sustentável,346248.0,7
+188,Reserva Extrativista Pedras Negras,Reserva Extrativista,Estadual,Uso Sustentável,124283.0,7
+189,Parque Estadual Serra Dos Reis,Parque,Estadual,Proteção Integral,36439.0,7
+190,Reserva Extrativista Rio Cautário,Reserva Extrativista,Estadual,Uso Sustentável,148695.0,7
+191,Reserva Extrativista Rio Preto-Jacundá,Reserva Extrativista,Estadual,Uso Sustentável,101352.0,7
+192,Floresta Estadual De Rendimento Sustentado Periquito,Floresta,Estadual,Uso Sustentável,1153.0,7
+193,Área De Proteção Ambiental Igarapé São Francisco,Área de Proteção Ambiental,Estadual,Uso Sustentável,30020.0,1
+194,Floresta Estadudal Do Rio Liberdade,Floresta,Estadual,Uso Sustentável,126360.0,1
+195,Floresta Estadual De Iriri,Floresta,Estadual,Uso Sustentável,439245.0,6
+196,Floresta Estadual Do Amapá,Floresta,Estadual,Uso Sustentável,2370106.683,2
+197,Área De Proteção Ambiental Do Itapiracó,Área de Proteção Ambiental,Estadual,Uso Sustentável,355.0,4
+198,Área De Proteção Ambiental Da Região Do Maracanã,Área de Proteção Ambiental,Estadual,Uso Sustentável,2190.196786,4
+199,Parque Municipal Ariquemes,Parque,Municipal,Proteção Integral,151.0,7
+200,Reserva Extrativista Municipal Beija Flor Brilho De Fogo,Reserva Extrativista,Municipal,Uso Sustentável,68221.0,2
+201,Área De Proteção Ambiental Raimundo Irineu Serra,Área de Proteção Ambiental,Municipal,Uso Sustentável,908.0,1
+202,Area De Relevante Interesse Ecologico Parque Ambiental Antonio Danubio Lourenço Da Silva,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,4.0,6
+203,Area De Relevante Interesse Ecologico Museu Parque Seringal,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,1.0,6
+204,Parque Municipal Natural De Pimenta Bueno,Parque,Municipal,Proteção Integral,546.644143,7
+205,Estação Ecológica Do Madeira,Estação Ecológica,Municipal,Proteção Integral,23.0,7
+206,Parque Natural Municipal De Castanhal/Pará,Parque,Municipal,Proteção Integral,15.0,6
+207,Área De Proteção Ambiental Do Carmo,Área de Proteção Ambiental,Municipal,Uso Sustentável,5.0,2
+208,Área De Proteção Ambiental Parque Linear Do Bindá,Área de Proteção Ambiental,Municipal,Uso Sustentável,6.0,3
+209,Refugio Da Vida Silvestre De Colíder,Refúgio de Vida Silvestre,Municipal,Proteção Integral,18.0,5
+210,Refúgio De Vida Silvestre Da Ilha Chaú,Refúgio de Vida Silvestre,Municipal,Proteção Integral,116.0,6
+211,Parque Natural Municipal Rio Garrafão,Parque,Municipal,Proteção Integral,17.0,6
+212,Área De Proteção Ambiental Do Igarapé Gelado,Área de Proteção Ambiental,Federal,Uso Sustentável,23283.0,6
+213,Área De Relevante Interesse Ecológico Seringal Nova Esperança,Área de Relevante Interesse Ecológico,Federal,Uso Sustentável,2574.0,1
+214,Estação Ecológica Da Terra Do Meio,Estação Ecológica,Federal,Proteção Integral,3373177.0,6
+215,Estação Ecológica De Niquiá,Estação Ecológica,Federal,Proteção Integral,306404.1971,8
+216,Estação Ecológica Rio Acre,Estação Ecológica,Federal,Proteção Integral,78767.0,1
+217,Floresta Nacional De Anauá,Floresta,Federal,Uso Sustentável,259402.7979,8
+218,Floresta Nacional De Carajás,Floresta,Federal,Uso Sustentável,391266.0,6
+219,Floresta Nacional De Caxiuanã,Floresta,Federal,Uso Sustentável,317949.0,6
+220,Floresta Nacional De Humaitá,Floresta,Federal,Uso Sustentável,476609.0,3
+221,Floresta Nacional De Jacundá,Floresta,Federal,Uso Sustentável,220827.0,7
+222,Floresta Nacional De Mulata,Floresta,Federal,Uso Sustentável,215532.4265,6
+223,Floresta Nacional De Pau-Rosa,Floresta,Federal,Uso Sustentável,984587.0,3
+224,Floresta Nacional De Santa Rosa Do Purus,Floresta,Federal,Uso Sustentável,231541.0,1
+225,Floresta Nacional De São Francisco,Floresta,Federal,Uso Sustentável,21149.0,1
+226,Floresta Nacional De Amapá,Floresta,Federal,Uso Sustentável,460360.9022,2
+227,Floresta Nacional Do Amazonas,Floresta,Federal,Uso Sustentável,1934084.0,3
+228,Floresta Nacional Do Itacaiunas,Floresta,Federal,Uso Sustentável,139815.0,6
+229,Floresta Nacional Do Jamari,Floresta,Federal,Uso Sustentável,222169.0,7
+230,Floresta Nacional Do Macauã,Floresta,Federal,Uso Sustentável,176385.0,1
+231,Floresta Nacional Do Purús,Floresta,Federal,Uso Sustentável,256129.0,3
+232,Floresta Nacional De Tapirapé Aquiri,Floresta,Federal,Uso Sustentável,196506.0,6
+233,Floresta Nacional De Mapiá-Inauiní,Floresta,Federal,Uso Sustentável,368950.0,3
+234,Parque Nacional Da Serra Do Divisor,Parque,Federal,Proteção Integral,828451.0,1
+235,Parque Nacional Da Serra Do Pardo,Parque,Federal,Proteção Integral,445414.0,6
+236,Parque Nacional De Pacaás Novos,Parque,Federal,Proteção Integral,706123.0,7
+237,Parque Nacional Do Monte Roraima,Parque,Federal,Proteção Integral,114243.0,8
+238,Parque Nacional Do Pico Da Neblina,Parque,Federal,Proteção Integral,2247075.0,3
+239,Parque Nacional Da Serra Da Cutia,Parque,Federal,Proteção Integral,283501.0,7
+240,Reserva Biológica Do Abufari,Reserva Biológica,Federal,Proteção Integral,224746.0,3
+241,Reserva Biológica Do Guaporé,Reserva Biológica,Federal,Proteção Integral,615445.0,7
+242,Reserva Biológica Do Tapirapé,Reserva Biológica,Federal,Proteção Integral,99273.0,6
+243,Reserva Biológica Nascentes Serra Do Cachimbo,Reserva Biológica,Federal,Proteção Integral,342200.0,6
+244,Reserva De Desenvolvimento Sustentável De Itatupã-Baquiá,Reserva de Desenvolvimento Sustentável,Federal,Uso Sustentável,64442.0,6
+245,Reserva Extrativista Barreiro Das Antas,Reserva Extrativista,Federal,Uso Sustentável,106198.0,7
+246,Reserva Extrativista Chico Mendes,Reserva Extrativista,Federal,Uso Sustentável,931402.0,1
+247,Reserva Extrativista São João Da Ponta,Reserva Extrativista,Federal,Uso Sustentável,3410.0,6
+248,Reserva Extrativista Do Cazumbá-Iracema,Reserva Extrativista,Federal,Uso Sustentável,757188.0,1
+249,Reserva Extrativista Do Rio Cautário,Reserva Extrativista,Federal,Uso Sustentável,75126.0,7
+250,Reserva Extrativista Extremo Norte Do Tocantins,Reserva Extrativista,Federal,Uso Sustentável,9070.0,9
+251,Reserva Extrativista Ipaú-Anilzinho,Reserva Extrativista,Federal,Uso Sustentável,55835.0,6
+252,Reserva Extrativista Do Lago Do Capanã Grande,Reserva Extrativista,Federal,Uso Sustentável,305076.0,3
+253,Reserva Extrativista Mapuá,Reserva Extrativista,Federal,Uso Sustentável,93760.0,6
+254,Reserva Extrativista Do Rio Ouro Preto,Reserva Extrativista,Federal,Uso Sustentável,204631.0,7
+255,Reserva Extrativista Riozinho Do Anfrísio,Reserva Extrativista,Federal,Uso Sustentável,737031.0,6
+256,Reserva Extrativista Tapajós - Arapiuns,Reserva Extrativista,Federal,Uso Sustentável,677285.8035,6
+257,Reserva Extrativista Verde Para Sempre,Reserva Extrativista,Federal,Uso Sustentável,1289311.0,6
+258,Parque Nacional Do Rio Novo,Parque,Federal,Proteção Integral,538095.0,6
+259,Floresta Nacional Do Trairão,Floresta,Federal,Uso Sustentável,257529.0,6
+260,Floresta Nacional Do Jamanxim,Floresta,Federal,Uso Sustentável,1301512.0,6
+261,Reserva Extrativista Arióca Pruanã,Reserva Extrativista,Federal,Uso Sustentável,83819.0,6
+262,Reserva Extrativista Do Alto Tarauacá,Reserva Extrativista,Federal,Uso Sustentável,154133.0,1
+263,Reserva Extrativista Rio Iriri,Reserva Extrativista,Federal,Uso Sustentável,398986.0,6
+264,Reserva Extrativista Terra Grande-Pracuúba,Reserva Extrativista,Federal,Uso Sustentável,194860.0,6
+265,Reserva Extrativista Arapixi,Reserva Extrativista,Federal,Uso Sustentável,133704.0,3
+266,Reserva Extrativista Gurupá-Melgaço,Reserva Extrativista,Federal,Uso Sustentável,145561.0,6
+267,Reserva Extrativista Do Alto Juruá,Reserva Extrativista,Federal,Uso Sustentável,537808.0,1
+268,Reserva Extrativista Quilombo Do Frechal,Reserva Extrativista,Federal,Uso Sustentável,9338.0,4
+269,Reserva Extrativista Do Médio Purús,Reserva Extrativista,Federal,Uso Sustentável,600550.0,3
+270,Floresta Nacional Do Iquiri,Floresta,Federal,Uso Sustentável,1470197.162,3
+271,Parque Nacional Nascentes Do Lago Jari,Parque,Federal,Proteção Integral,808603.0,3
+272,Reserva Extrativista Ituxí,Reserva Extrativista,Federal,Uso Sustentável,777387.0,3
+273,Reserva Extrativista Rio Xingu,Reserva Extrativista,Federal,Uso Sustentável,303006.0,6
+274,Reserva Extrativista Renascer,Reserva Extrativista,Federal,Uso Sustentável,209659.0,6
+275,Reserva Particular Do Patrimônio Natural Fazenda Bosco,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,487.0,7
+276,Reserva Particular Do Patrimônio Natural Ilhas Alexandre Rodrigues Ferreira,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,302.0,3
+277,Reserva Particular Do Patrimônio Natural Klagesi,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,23.0,6
+278,Reserva Particular Do Patrimônio Natural Osório Reimão,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,9.0,6
+279,Reserva Particular Do Patrimônio Natural Gibeão,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,31.0,7
+280,Reserva Particular Do Patrimônio Natural Nova Aurora,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,19.0,7
+281,Reserva Particular Do Patrimônio Natural Irmãos Satelis,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,41.0,7
+282,Estação Ecológica Alto Maués,Estação Ecológica,Federal,Proteção Integral,666795.0,3
+283,Área De Proteção Ambiental Dos Campos De Manicoré,Área de Proteção Ambiental,Federal,Uso Sustentável,152387.0,3
+284,Floresta Nacional De Urupadi,Floresta,Federal,Uso Sustentável,537982.0,3
+285,Floresta Nacional Do Aripuanã,Floresta,Federal,Uso Sustentável,751301.0,3
+286,Parque Nacional Do Acari,Parque,Federal,Proteção Integral,896445.0,3
+287,Reserva Biológica Do Manicoré,Reserva Biológica,Federal,Proteção Integral,359149.0,3
+288,Parque Nacional Dos Campos Ferruginosos,Parque,Federal,Proteção Integral,78870.0,6
+289,Reserva Particular Do Patrimônio Natural Ajuricaba,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,302.3726582,3
+290,Reserva Particular Do Patrimônio Natural Frigonosso,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,558.0,7
+291,Floresta Nacional Do Parima,Floresta,Federal,Uso Sustentável,109485.0,8
+292,Reserva Biológica Rio Ouro Preto,Reserva Biológica,Estadual,Proteção Integral,59137.0,7
+293,Floresta Estadual De Rendimento Sustentado Araras,Floresta,Estadual,Uso Sustentável,1086.0,7
+294,Área De Proteção Ambiental Do Rio Madeira,Área de Proteção Ambiental,Estadual,Uso Sustentável,5638.0,7
+295,Estação Ecológica Umirizal,Estação Ecológica,Estadual,Proteção Integral,57539.0,7
+296,Reserva De Desenvolvimento Sustentável Limoeiro,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,18839.0,7
+297,Reserva De Desenvolvimento Sustentável Serra Grande,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,23187.0,7
+298,Reserva De Desenvolvimento Sustentável Rio Machado,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,9205.0,7
+299,Parque Estadual Ilha Das Flores,Parque,Estadual,Proteção Integral,89833.0,7
+300,Estação Ecológica Soldado Da Borracha,Estação Ecológica,Estadual,Proteção Integral,179080.0,7
+301,Reserva De Desenvolvimento Sustentável Bom Jardim,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,1680.0,7
+302,Reserva De Fauna Pau D'Oleo,Reserva de Fauna,Estadual,Uso Sustentável,10529.0,7
+303,Parque Estadual Abaitará,Parque,Estadual,Proteção Integral,152.0,7
+304,Parque Estadual Chandless,Parque,Estadual,Proteção Integral,690457.0,1
+305,Área De Proteção Ambiental Lago Do Amapá,Área de Proteção Ambiental,Estadual,Uso Sustentável,5177.0,1
+306,Área De Relevante Interesse Ecológico Japiim Pentecoste,Área de Relevante Interesse Ecológico,Estadual,Uso Sustentável,25655.0,1
+307,Floresta Estadual Do Rio Gregório,Floresta,Estadual,Uso Sustentável,216062.0,1
+308,Floresta Estadual Do Mogno,Floresta,Estadual,Uso Sustentável,143897.0,1
+309,Floresta Estadual Do Antimary,Floresta,Estadual,Uso Sustentável,57629.0,1
+310,Reserva De Desenvolvimento Sustentável Aripuanã,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,218098.0,3
+311,Reserva De Desenvolvimento Sustentável Bararati,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,110814.0,3
+312,Reserva De Desenvolvimento Sustentável Canumã,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,22758.0,3
+313,Reserva De Desenvolvimento Sustentável Cujubim,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,2421944.0,3
+314,Reserva De Desenvolvimento Sustentável Piagaçu Purus,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,800915.0,3
+315,Reserva De Desenvolvimento Sustentável Rio Amapá,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,214317.0,3
+316,Reserva Extrativista Do Guariba,Reserva Extrativista,Estadual,Uso Sustentável,148088.0,3
+317,Área De Proteção Ambiental Nhamundá,Área de Proteção Ambiental,Estadual,Uso Sustentável,201599.3639,3
+318,Floresta Estadual Apuí,Floresta,Estadual,Uso Sustentável,182759.0,3
+319,Floresta Estadual Aripuanã,Floresta,Estadual,Uso Sustentável,328746.0,3
+320,Floresta Estadual Manicoré,Floresta,Estadual,Uso Sustentável,83495.0,3
+321,Floresta Estadual Sucunduri,Floresta,Estadual,Uso Sustentável,481109.0,3
+322,Floresta Estadual Maúes,Floresta,Estadual,Uso Sustentável,449811.0,3
+323,Parque Estadual Guariba,Parque,Estadual,Proteção Integral,71101.0,3
+324,Parque Estadual Serra Do Aracá,Parque,Estadual,Proteção Integral,1869856.0,3
+325,Parque Estadual Sucunduri,Parque,Estadual,Proteção Integral,796216.0,3
+326,Parque Estadual Sumaúma,Parque,Estadual,Proteção Integral,53.0,3
+327,Reserva Biológica Morro Dos Seis Lagos,Reserva Biológica,Estadual,Proteção Integral,38288.0,3
+328,Reserva De Desenvolvimento Sustentável Do Juma,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,580787.0,3
+329,Floresta Estadual De Tapauá,Floresta,Estadual,Uso Sustentável,881410.0,3
+330,Reserva De Desenvolvimento Sustentável Igapó-Açu,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,394620.0,3
+331,Reserva Extrativista Canutama,Reserva Extrativista,Estadual,Uso Sustentável,197950.0,3
+332,Reserva De Desenvolvimento Sustentável Do Matupiri,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,177011.0,3
+333,Parque Estadual Do Matupiri,Parque,Estadual,Proteção Integral,509606.0,3
+334,Floresta Estadual Canutama,Floresta,Estadual,Uso Sustentável,150591.0,3
+335,Reserva De Desenvolvimento Sustentavel Do Rio Madeira,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,279634.0,3
+336,Reserva De Desenvolvimento Sustentável Itapará - Boiaçu,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,622843.0,8
+337,Reserva De Desenvolvimento Sustentável Xeriuini,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,1521202.0,8
+338,Parque Estadual Da Serra Dos Martírios/Andorinhas,Parque,Estadual,Proteção Integral,25032.0,6
+339,Área De Proteção Ambiental De São Geraldo Do Araguaia,Área de Proteção Ambiental,Estadual,Uso Sustentável,26704.0,6
+340,Área De Proteção Ambiental Da Ilha Do Combu,Área de Proteção Ambiental,Estadual,Uso Sustentável,1503.0,6
+341,Área De Proteção Ambiental Do Lago De Tucurui,Área de Proteção Ambiental,Estadual,Uso Sustentável,568233.0,6
+342,Reserva De Desenvolvimento Sustentável Alcobaça,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,22462.0,6
+343,Reserva De Desenvolvimento Sustentável Pucuruí - Ararão,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,29165.0,6
+344,Reserva Biológica De Maicuru,Reserva Biológica,Estadual,Proteção Integral,1173166.0,6
+345,Estação Ecológica Do Grão Pará,Estação Ecológica,Estadual,Proteção Integral,4198615.0,6
+346,Floresta Estadual Do Trombetas,Floresta,Estadual,Uso Sustentável,3143590.0,6
+347,Floresta Estadual Do Paru,Floresta,Estadual,Uso Sustentável,3610081.0,6
+348,Área De Proteção Ambiental Triunfo Do Xingu,Área de Proteção Ambiental,Estadual,Uso Sustentável,1679656.0,6
+349,Refúgio De Vida Silvestre Metrópole Da Amazônia,Refúgio de Vida Silvestre,Estadual,Proteção Integral,6369.0,6
+350,Parque Estadual Charapucu,Parque,Estadual,Proteção Integral,65349.0,6
+351,Refúgio De Vida Silvestre Tabuleiro Do Embaubal,Refúgio de Vida Silvestre,Estadual,Proteção Integral,4036.0,6
+352,Refúgio De Vida Silvestre Padre Sérgio Tonetto,Refúgio de Vida Silvestre,Estadual,Proteção Integral,339.0,6
+353,Reserva De Desenvolvimento Sustentável Vitória De Souzel,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,22969.0,6
+354,Reserva De Desenvolvimento Sustentável Campo Das Mangabas,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,7054.0,6
+355,Reserva De Desenvolvimento Sustentável Do Rio Iratapuru,Reserva de Desenvolvimento Sustentável,Estadual,Uso Sustentável,873589.0,2
+356,Área De Proteção Ambiental Do Rio Curiaú,Área de Proteção Ambiental,Estadual,Uso Sustentável,21873.0,2
+357,Área De Proteção Ambiental Da Fazendinha,Área de Proteção Ambiental,Estadual,Uso Sustentável,149.0,2
+358,Área De Proteção Ambiental Lago De Santa Isabel,Área de Proteção Ambiental,Estadual,Uso Sustentável,18586.0,9
+359,Parque Estadual Serra Ricardo Franco,Parque,Estadual,Proteção Integral,156706.0,5
+360,Parque Estadual Igarapés Do Juruena,Parque,Estadual,Proteção Integral,223760.0,5
+361,Parque Estadual Cristalino,Parque,Estadual,Proteção Integral,59020.0,5
+362,Parque Estadual Cristalino Ii,Parque,Estadual,Proteção Integral,118000.0,5
+363,Estação Ecológica Do Rio Madeirinha,Estação Ecológica,Estadual,Proteção Integral,13683.0,5
+364,Estação Ecológica Rio Flor Do Prado,Estação Ecológica,Estadual,Proteção Integral,8538.0,5
+365,Reserva Particular Do Patrimônio Natural Peugeot-Onf-Brasil,Reserva Particular do Patrimônio Natural,Estadual,Uso Sustentável,1760.0,5
+366,Reserva Particular Do Patrimônio Natural Cristalino Iii,Reserva Particular do Patrimônio Natural,Estadual,Uso Sustentável,1617.0,5
+367,Reserva Particular Do Patrimônio Natural Cristalino I,Reserva Particular do Patrimônio Natural,Estadual,Uso Sustentável,2451.0,5
+368,Parque Natural Municipal Do Cancão,Parque,Municipal,Proteção Integral,371.0,2
+369,Apa Parque Das Mangueiras,Área de Proteção Ambiental,Municipal,Uso Sustentável,7.0,7
+370,"Estação Ecológica Das Capivaras, Categoria De Proteção Integral",Estação Ecológica,Municipal,Proteção Integral,3.0,7
+371,Arie Parque Das Águas Marechal Rondom.,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,3.0,7
+372,Parque Natural Municipal Veredas Dos Carajás,Parque,Municipal,Proteção Integral,831.0,6
+373,Parque Natural Muncipal Paulo Viriato Correa Da Costa,Parque,Municipal,Proteção Integral,21.0,5
+374,Refúgio De Vida Silvestre Lago Mole,Refúgio de Vida Silvestre,Municipal,Proteção Integral,653.0,6
+375,Parque Natural Municipal Do Morro Dos Ventos,Parque,Municipal,Proteção Integral,46.0,6
+376,Parque Natural Municipal De Redenção,Parque,Municipal,Proteção Integral,16.0,6
+377,Área De Proteção Ambiental De Alter Do Chão,Área de Proteção Ambiental,Municipal,Uso Sustentável,16122.0,6
+378,Área De Proteção Ambiental Da Serra Do Saubal,Área de Proteção Ambiental,Municipal,Uso Sustentável,167.0,6
+379,Área De Proteção Ambiental Do Juá,Área de Proteção Ambiental,Municipal,Uso Sustentável,126.3490282,6
+380,Parque Natural Municipal Parque Florestal De Sinop,Parque,Municipal,Proteção Integral,106.0,5
+381,Parque Natural Municipal Jardim Botânico,Parque,Municipal,Proteção Integral,90.0,5
+382,Área  De Proteção Ambiental Jará,Área de Proteção Ambiental,Municipal,Uso Sustentável,4853.0,6
+383,Parque Nacional Dos Lençóis Maranhenses,Parque,Federal,Proteção Integral,21.0,4
+384,Reserva Extrativista Do Ciriáco,Reserva Extrativista,Federal,Uso Sustentável,6894.0,4
+385,Reserva Extrativista Da Baía Do Tubarão,Reserva Extrativista,Federal,Uso Sustentável,62340.0,4
+386,Área De Proteção Ambiental Da Baixada Maranhense,Área de Proteção Ambiental,Estadual,Uso Sustentável,1641053.0,4
+387,Área De Proteção Ambiental De Upaon-Açu / Miritiba / Alto Preguiças,Área de Proteção Ambiental,Estadual,Uso Sustentável,356407.0,4
+388,"Parque Natural Municipal ""O Semeador""",Parque,Municipal,Proteção Integral,4.0,5
+389,Área De Proteção Ambiental Da Foz Do Rio Das Preguiças - Pequenos Lençóis - Região Lagunar Adjacente,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,4
+390,Área De Proteção Ambiental Serra Da Tabatinga,Área de Proteção Ambiental,Federal,Uso Sustentável,0.0,9
+391,Parque Nacional Do Araguaia,Parque,Federal,Proteção Integral,0.0,9
+392,Parque Estadual Do Cantão,Parque,Estadual,Proteção Integral,0.0,9
+393,Parque Estadual Do Araguaiaa,Parque,Estadual,Proteção Integral,0.0,5
+394,Parque Natural Municipal De Rondonópolis,Parque,Municipal,Proteção Integral,0.0,5
+395,Reserva Particular Do Patrimônio Natural Nelson Mandela,Reserva Particular do Patrimônio Natural,Municipal,Uso Sustentável,0.0,5
+396,Área De Relevante Interesse Ecológico  (Arie) Na Região Da Gleba A.,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,0.0,5
+397,Reserva Particular Do Patrimônio Natural Canto Do Obrieni,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+398,"Área De Proteção Ambiental Lago De São Salvador Do Tocantins, Paranã E Palmeirópolis",Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+399,Área De Proteção Ambiental Ilha Do Bananal/Cantão,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+400,Área De Proteção Ambiental Dos Morros Garapenses,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,4
+401,Área De Proteção Ambiental Da Chapada Dos Guimarães,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,5
+402,Estação Ecológica Do Rio Da Casca,Estação Ecológica,Estadual,Proteção Integral,0.0,5
+403,"Área De Proteção Ambiental Rio Araguaia, Córrego Rico, Couto Magalhães E Rio Araguainha,",Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+404,Área De Proteção Ambiental Córregos Gordura E Boiadeiro,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+405,"Área De Proteção Ambiental Ribeirão Claro, Água Emendada, Paraíso E Rio Araguainha",Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+406,Área De Proteção Ambiental Municipal Do Aricá-Açu,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+407,Parque Natural Municipal Do Córrego Lucas,Parque,Municipal,Proteção Integral,0.0,5
+408,Parque Natural Municipal Das Araras,Parque,Municipal,Proteção Integral,0.0,5
+409,Refúgio De Vida Silvestre Manoel Lisboa,Refúgio de Vida Silvestre,Municipal,Proteção Integral,0.0,5
+410,Refúgio De Vida Silvestre Antonio Conselheiro,Refúgio de Vida Silvestre,Municipal,Proteção Integral,0.0,5
+411,Parque Natural Municipal Tereza De Benguela,Parque,Municipal,Proteção Integral,0.0,5
+412,Área De Relevante Interesse Ecológico Boe Bororo,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,0.0,5
+413,Parque Natural Municipal Marighella,Parque,Municipal,Proteção Integral,0.0,5
+414,Reserva Biologica Arco Verde,Reserva Biológica,Municipal,Proteção Integral,0.0,5
+415,Parque Natural Municipal Cacique Orochi,Parque,Municipal,Proteção Integral,0.0,5
+416,Parque Natural Municipal Chico Mendes,Parque,Municipal,Proteção Integral,0.0,5
+417,Parque Natural Municipal Mário Marques De Almeida,Parque,Municipal,Proteção Integral,0.0,5
+418,Parque Natural Municipal Juary Miranda De Moraes,Parque,Municipal,Proteção Integral,0.0,5
+419,Área De Relevante Interesse Ecológico Rio Vermelho,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,0.0,5
+420,Reserva Biológica Resistência Popular,Reserva Biológica,Municipal,Proteção Integral,0.0,5
+421,Parque Nacional Da Chapada Das Mesas,Parque,Federal,Proteção Integral,0.0,4
+422,Área De Proteção Ambiental Lago De Peixe/Angical,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+423,Parque Estadual De Mirador,Parque,Estadual,Proteção Integral,0.0,4
+424,Reserva Biológica Culuene,Reserva Biológica,Estadual,Proteção Integral,0.0,5
+425,Parque Estadual Mãe Bonifácia,Parque,Estadual,Proteção Integral,0.0,5
+426,Parque Estadual Massairo Okamura,Parque,Estadual,Proteção Integral,0.0,5
+427,Parque Estadual Zé Bolo Flô,Parque,Estadual,Proteção Integral,0.0,5
+428,Área De Proteção Ambiental Trizidela De Uso Sustentável,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,4
+429,Parque Natural Municipal Nascente Do Rio Taquari,Parque,Municipal,Proteção Integral,0.0,5
+430,Parque Natural Municipal Augusto Ruschi,Parque,Municipal,Proteção Integral,0.0,5
+431,Parque Natural Municipal Tanque Do Fancho,Parque,Municipal,Proteção Integral,0.0,5
+432,Reserva Particular Do Patrimônio Natural Reserva Sítio Ecológico Monte Santo,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+433,Reserva Particular Do Patrimônio Natural Fazenda Minnehaha,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+434,Reserva Particular Do Patrimônio Natural Água Bonita,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+435,Reserva Particular Do Patrimônio Natural Fazenda São Luiz,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+436,Reserva Particular Do Patrimônio Natural Parque Ecológico João Basso,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+437,Reserva Particular Do Patrimônio Natural Reserva Ecológica Da Mata Fria,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+438,Reserva Particular Do Patrimônio Natural Reserva Rama,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+439,Reserva Particular Do Patrimônio Natural Fazenda São Francisco,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+440,Reserva Particular Do Patrimônio Natural Estiva,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+441,Reserva Particular Do Patrimônio Natural Ilha Do Caju,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+442,Reserva Particular Do Patrimônio Natural Fazenda Pantanal,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+444,Área De Proteção Ambiental Jalapão,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+445,Area De Proteção Ambiental Parque Centenario De Balsas,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,4
+446,Área De Proteção Ambiental Municipal Do Córrego Lucas,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+447,Parque Natural Municipal Das Lagoas Claudia Mingorance Duram,Parque,Municipal,Proteção Integral,0.0,5
+448,Aréa De Proteção Ambiental De Ribeirãozinho E Alcantilado Do Rio Araguaia,Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,5
+449,Parque Natural Municipal Raimundo Tivotto Mascarello,Parque,Municipal,Proteção Integral,0.0,5
+450,Monumento Natural Canyons E Corredeiras Do Rio Sono,Monumento Natural,Municipal,Proteção Integral,0.0,9
+451,Estação Ecológica Da Serra Das Araras,Estação Ecológica,Federal,Proteção Integral,0.0,5
+452,Parque Nacional Da Chapada Dos Guimarães,Parque,Federal,Proteção Integral,0.0,5
+453,Reserva Extrativista Mata Grande,Reserva Extrativista,Federal,Uso Sustentável,0.0,4
+454,Reserva Extrativista Chapada Limpa,Reserva Extrativista,Federal,Uso Sustentável,0.0,4
+455,Reserva Particular Do Patrimônio Natural Canguçu,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+456,Reserva Particular Do Patrimônio Natural Catedral Do Jalapão,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+457,Reserva Particular Do Patrimônio Natural Fazenda Calixto,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+458,Reserva Particular Do Patrimônio Natural Hotel Mirante,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,5
+459,Reserva Particular Do Patrimônio Natural Sonhada,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+460,Reserva Particular Do Patrimônio Natural Bico Do Javaés,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+461,Reserva Particular Do Patrimônio Natural Centro De Pesquisa Espeliológico - Aurora Natura,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+462,Reserva Particular Do Patrimônio Natural Prata,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+463,Reserva Particular Do Patrimônio Natural Fazenda Chapadões,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,4
+464,Reserva Particular Do Patrimônio Natural Morro Do Segredo,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+465,Reserva Particular Do Patrimônio Natural Guaíra,Reserva Particular do Patrimônio Natural,Federal,Uso Sustentável,0.0,9
+466,Parque Estadual Do Jalapão,Parque,Estadual,Proteção Integral,0.0,9
+467,Parque Estadual Do Lajeado,Parque,Estadual,Proteção Integral,0.0,9
+468,Monumento Natural Das Árvores Fossilizadas Do Estado Do Tocantins,Monumento Natural,Estadual,Proteção Integral,0.0,9
+469,Área De Proteção Ambiental Das Nascentes De Araguaina,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+470,Área De Proteção Ambiental Lago De Palmas,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+471,Área De Proteção Ambiental Serra Do Lajeado,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+472,Área De Proteção Ambiental Foz Do Rio Santa Tereza,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,9
+473,Área De Proteção Ambiental Das Cabeceiras Do Rio Cuiabá,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,5
+474,Parque Estadual Águas Do Cuiabá,Parque,Estadual,Proteção Integral,0.0,5
+475,Parque Estadual Dom Osório Stoffel,Parque,Estadual,Proteção Integral,0.0,5
+476,Parque Estadual Gruta Da Lagoa Azul,Parque,Estadual,Proteção Integral,0.0,5
+477,Parque Estadual Serra Azul,Parque,Estadual,Proteção Integral,0.0,5
+478,Refúgio De Vida Silvestre Corixão Da Mata Azul,Refúgio de Vida Silvestre,Estadual,Proteção Integral,0.0,5
+479,Refúgio De Vida Silvestre Quelônios Do Araguaia,Refúgio de Vida Silvestre,Estadual,Proteção Integral,0.0,5
+480,Área De Proteção Ambiental Do Salto Magessi,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,5
+481,Área De Proteção Ambiental Estadual Pé Da Serra Azul,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,5
+482,Parque Estadual De Águas Quentes,Parque,Estadual,Proteção Integral,0.0,5
+483,Área De Proteção Ambiental Nascentes Do Rio Paraguai,Área de Proteção Ambiental,Estadual,Uso Sustentável,0.0,5
+484,Monumento Natural Morro De Santo Antônio,Monumento Natural,Estadual,Proteção Integral,0.0,5
+485,Parque Natural Municipal Riacho Estrela,Parque,Municipal,Proteção Integral,0.0,4
+486,Parque Natural Municipal Uirapuru,Parque,Municipal,Proteção Integral,0.0,5
+487,Parque  Natural Municipal Radialista Luiz Fernando De Campos,Parque,Municipal,Proteção Integral,0.0,5
+488,Parque Natural Municipal Claudino Francio,Parque,Municipal,Proteção Integral,0.0,5
+489,"Área De Proteção Ambiental, De Uso Sustentável, Sucupira",Área de Proteção Ambiental,Municipal,Uso Sustentável,0.0,4
+490,Parque Natural Municipal Apido  Paru,Parque,Municipal,Proteção Integral,0.0,5
+491,Parque Natural Municipal Do Escondidinho,Parque,Municipal,Proteção Integral,0.0,5
+492,Parque Natural Municipal Izabel Dias Goulart,Parque,Municipal,Proteção Integral,0.0,5
+493,Parque Natural Municipal Menina Moça,Parque,Municipal,Proteção Integral,0.0,5
+494,Parque Natural Municipal Águas Claras,Parque,Municipal,Proteção Integral,0.0,5
+495,Área De Relevante Interesse Ecológico Arie  Kayapó,Área de Relevante Interesse Ecológico,Municipal,Uso Sustentável,0.0,5
+496,Parque Natural Municipal Flor Do Ipê,Parque,Municipal,Proteção Integral,0.0,5

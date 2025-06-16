@@ -1,0 +1,810 @@
+id_cidade,nome,nome_normalizado,id_estado
+1,Alta Floresta D'Oeste,alta floresta d'oeste,7
+2,Alto Alegre dos Parecis,alto alegre dos parecis,7
+3,Alto Paraíso,alto paraiso,7
+4,Alvorada D'Oeste,alvorada d'oeste,7
+5,Ariquemes,ariquemes,7
+6,Buritis,buritis,7
+7,Cabixi,cabixi,7
+8,Cacaulândia,cacaulandia,7
+9,Cacoal,cacoal,7
+10,Campo Novo de Rondônia,campo novo de rondonia,7
+11,Candeias do Jamari,candeias do jamari,7
+12,Castanheiras,castanheiras,7
+13,Cerejeiras,cerejeiras,7
+14,Chupinguaia,chupinguaia,7
+15,Colorado do Oeste,colorado do oeste,7
+16,Corumbiara,corumbiara,7
+17,Costa Marques,costa marques,7
+18,Cujubim,cujubim,7
+19,Espigão D'Oeste,espigao d'oeste,7
+20,Governador Jorge Teixeira,governador jorge teixeira,7
+21,Guajará-Mirim,guajara-mirim,7
+22,Itapuã do Oeste,itapua do oeste,7
+23,Jaru,jaru,7
+24,Ji-Paraná,ji-parana,7
+25,Machadinho D'Oeste,machadinho d'oeste,7
+26,Ministro Andreazza,ministro andreazza,7
+27,Mirante da Serra,mirante da serra,7
+28,Monte Negro,monte negro,7
+29,Nova Brasilândia D'Oeste,nova brasilandia d'oeste,7
+30,Nova Mamoré,nova mamore,7
+31,Nova União,nova uniao,7
+32,Novo Horizonte do Oeste,novo horizonte do oeste,7
+33,Ouro Preto do Oeste,ouro preto do oeste,7
+34,Parecis,parecis,7
+35,Pimenta Bueno,pimenta bueno,7
+36,Pimenteiras do Oeste,pimenteiras do oeste,7
+37,Porto Velho,porto velho,7
+38,Presidente Médici,presidente medici,7
+39,Primavera de Rondônia,primavera de rondonia,7
+40,Rio Crespo,rio crespo,7
+41,Rolim de Moura,rolim de moura,7
+42,Santa Luzia D'Oeste,santa luzia d'oeste,7
+43,São Felipe D'Oeste,sao felipe d'oeste,7
+44,São Francisco do Guaporé,sao francisco do guapore,7
+45,São Miguel do Guaporé,sao miguel do guapore,7
+46,Seringueiras,seringueiras,7
+47,Teixeirópolis,teixeiropolis,7
+48,Theobroma,theobroma,7
+49,Urupá,urupa,7
+50,Vale do Anari,vale do anari,7
+51,Vale do Paraíso,vale do paraiso,7
+52,Vilhena,vilhena,7
+53,Acrelândia,acrelandia,1
+54,Assis Brasil,assis brasil,1
+55,Brasiléia,brasileia,1
+56,Bujari,bujari,1
+57,Capixaba,capixaba,1
+58,Cruzeiro do Sul,cruzeiro do sul,1
+59,Epitaciolândia,epitaciolandia,1
+60,Feijó,feijo,1
+61,Jordão,jordao,1
+62,Mâncio Lima,mancio lima,1
+63,Manoel Urbano,manoel urbano,1
+64,Marechal Thaumaturgo,marechal thaumaturgo,1
+65,Plácido de Castro,placido de castro,1
+66,Porto Acre,porto acre,1
+67,Porto Walter,porto walter,1
+68,Rio Branco,rio branco,1
+69,Rodrigues Alves,rodrigues alves,1
+70,Santa Rosa do Purus,santa rosa do purus,1
+71,Sena Madureira,sena madureira,1
+72,Senador Guiomard,senador guiomard,1
+73,Tarauacá,tarauaca,1
+74,Xapuri,xapuri,1
+75,Alvarães,alvaraes,3
+76,Amaturá,amatura,3
+77,Anamã,anama,3
+78,Anori,anori,3
+79,Apuí,apui,3
+80,Atalaia do Norte,atalaia do norte,3
+81,Autazes,autazes,3
+82,Barcelos,barcelos,3
+83,Barreirinha,barreirinha,3
+84,Benjamin Constant,benjamin constant,3
+85,Beruri,beruri,3
+86,Boa Vista do Ramos,boa vista do ramos,3
+87,Boca do Acre,boca do acre,3
+88,Borba,borba,3
+89,Caapiranga,caapiranga,3
+90,Canutama,canutama,3
+91,Carauari,carauari,3
+92,Careiro,careiro,3
+93,Careiro da Várzea,careiro da varzea,3
+94,Coari,coari,3
+95,Codajás,codajas,3
+96,Eirunepé,eirunepe,3
+97,Envira,envira,3
+98,Fonte Boa,fonte boa,3
+99,Guajará,guajara,3
+100,Humaitá,humaita,3
+101,Ipixuna,ipixuna,3
+102,Iranduba,iranduba,3
+103,Itacoatiara,itacoatiara,3
+104,Itamarati,itamarati,3
+105,Itapiranga,itapiranga,3
+106,Japurá,japura,3
+107,Juruá,jurua,3
+108,Jutaí,jutai,3
+109,Lábrea,labrea,3
+110,Manacapuru,manacapuru,3
+111,Manaquiri,manaquiri,3
+112,Manaus,manaus,3
+113,Manicoré,manicore,3
+114,Maraã,maraa,3
+115,Maués,maues,3
+116,Nhamundá,nhamunda,3
+117,Nova Olinda do Norte,nova olinda do norte,3
+118,Novo Airão,novo airao,3
+119,Novo Aripuanã,novo aripuana,3
+120,Parintins,parintins,3
+121,Pauini,pauini,3
+122,Presidente Figueiredo,presidente figueiredo,3
+123,Rio Preto da Eva,rio preto da eva,3
+124,Santa Isabel do Rio Negro,santa isabel do rio negro,3
+125,Santo Antônio do Içá,santo antonio do ica,3
+126,São Gabriel da Cachoeira,sao gabriel da cachoeira,3
+127,São Paulo de Olivença,sao paulo de olivenca,3
+128,São Sebastião do Uatumã,sao sebastiao do uatuma,3
+129,Silves,silves,3
+130,Tabatinga,tabatinga,3
+131,Tapauá,tapaua,3
+132,Tefé,tefe,3
+133,Tonantins,tonantins,3
+134,Uarini,uarini,3
+135,Urucará,urucara,3
+136,Urucurituba,urucurituba,3
+137,Alto Alegre,alto alegre,8
+138,Amajari,amajari,8
+139,Boa Vista,boa vista,8
+140,Bonfim,bonfim,8
+141,Cantá,canta,8
+142,Caracaraí,caracarai,8
+143,Caroebe,caroebe,8
+144,Iracema,iracema,8
+145,Mucajaí,mucajai,8
+146,Normandia,normandia,8
+147,Pacaraima,pacaraima,8
+148,Rorainópolis,rorainopolis,8
+149,São João da Baliza,sao joao da baliza,8
+150,São Luiz,sao luiz,8
+151,Uiramutã,uiramuta,8
+152,Abaetetuba,abaetetuba,6
+153,Abel Figueiredo,abel figueiredo,6
+154,Acará,acara,6
+155,Afuá,afua,6
+156,Água Azul do Norte,agua azul do norte,6
+157,Alenquer,alenquer,6
+158,Almeirim,almeirim,6
+159,Altamira,altamira,6
+160,Anajás,anajas,6
+161,Ananindeua,ananindeua,6
+162,Anapu,anapu,6
+163,Augusto Corrêa,augusto correa,6
+164,Aurora do Pará,aurora do para,6
+165,Aveiro,aveiro,6
+166,Bagre,bagre,6
+167,Baião,baiao,6
+168,Bannach,bannach,6
+169,Barcarena,barcarena,6
+170,Belém,belem,6
+171,Belterra,belterra,6
+172,Benevides,benevides,6
+173,Bom Jesus do Tocantins,bom jesus do tocantins,6
+174,Bonito,bonito,6
+175,Bragança,braganca,6
+176,Brasil Novo,brasil novo,6
+177,Brejo Grande do Araguaia,brejo grande do araguaia,6
+178,Breu Branco,breu branco,6
+179,Breves,breves,6
+180,Bujaru,bujaru,6
+181,Cachoeira do Arari,cachoeira do arari,6
+182,Cachoeira do Piriá,cachoeira do piria,6
+183,Cametá,cameta,6
+184,Canaã dos Carajás,canaa dos carajas,6
+185,Capanema,capanema,6
+186,Capitão Poço,capitao poco,6
+187,Castanhal,castanhal,6
+188,Chaves,chaves,6
+189,Colares,colares,6
+190,Conceição do Araguaia,conceicao do araguaia,6
+191,Concórdia do Pará,concordia do para,6
+192,Cumaru do Norte,cumaru do norte,6
+193,Curionópolis,curionopolis,6
+194,Curralinho,curralinho,6
+195,Curuá,curua,6
+196,Curuçá,curuca,6
+197,Dom Eliseu,dom eliseu,6
+198,Eldorado do Carajás,eldorado do carajas,6
+199,Faro,faro,6
+200,Floresta do Araguaia,floresta do araguaia,6
+201,Garrafão do Norte,garrafao do norte,6
+202,Goianésia do Pará,goianesia do para,6
+203,Gurupá,gurupa,6
+204,Igarapé-Açu,igarape-acu,6
+205,Igarapé-Miri,igarape-miri,6
+206,Inhangapi,inhangapi,6
+207,Ipixuna do Pará,ipixuna do para,6
+208,Irituia,irituia,6
+209,Itaituba,itaituba,6
+210,Itupiranga,itupiranga,6
+211,Jacareacanga,jacareacanga,6
+212,Jacundá,jacunda,6
+213,Juruti,juruti,6
+214,Limoeiro do Ajuru,limoeiro do ajuru,6
+215,Mãe do Rio,mae do rio,6
+216,Magalhães Barata,magalhaes barata,6
+217,Marabá,maraba,6
+218,Maracanã,maracana,6
+219,Marapanim,marapanim,6
+220,Marituba,marituba,6
+221,Medicilândia,medicilandia,6
+222,Melgaço,melgaco,6
+223,Mocajuba,mocajuba,6
+224,Moju,moju,6
+225,Mojuí dos Campos,mojui dos campos,6
+226,Monte Alegre,monte alegre,6
+227,Muaná,muana,6
+228,Nova Esperança do Piriá,nova esperanca do piria,6
+229,Nova Ipixuna,nova ipixuna,6
+230,Nova Timboteua,nova timboteua,6
+231,Novo Progresso,novo progresso,6
+232,Novo Repartimento,novo repartimento,6
+233,Óbidos,obidos,6
+234,Oeiras do Pará,oeiras do para,6
+235,Oriximiná,oriximina,6
+236,Ourém,ourem,6
+237,Ourilândia do Norte,ourilandia do norte,6
+238,Pacajá,pacaja,6
+239,Palestina do Pará,palestina do para,6
+240,Paragominas,paragominas,6
+241,Parauapebas,parauapebas,6
+242,Pau D'Arco,pau d'arco,6
+243,Peixe-Boi,peixe-boi,6
+244,Piçarra,picarra,6
+245,Placas,placas,6
+246,Ponta de Pedras,ponta de pedras,6
+247,Portel,portel,6
+248,Porto de Moz,porto de moz,6
+249,Prainha,prainha,6
+250,Primavera,primavera,6
+251,Quatipuru,quatipuru,6
+252,Redenção,redencao,6
+253,Rio Maria,rio maria,6
+254,Rondon do Pará,rondon do para,6
+255,Rurópolis,ruropolis,6
+256,Salinópolis,salinopolis,6
+257,Salvaterra,salvaterra,6
+258,Santa Bárbara do Pará,santa barbara do para,6
+259,Santa Cruz do Arari,santa cruz do arari,6
+260,Santa Izabel do Pará,santa izabel do para,6
+261,Santa Luzia do Pará,santa luzia do para,6
+262,Santa Maria das Barreiras,santa maria das barreiras,6
+263,Santa Maria do Pará,santa maria do para,6
+264,Santana do Araguaia,santana do araguaia,6
+265,Santarém,santarem,6
+266,Santarém Novo,santarem novo,6
+267,Santo Antônio do Tauá,santo antonio do taua,6
+268,São Caetano de Odivelas,sao caetano de odivelas,6
+269,São Domingos do Araguaia,sao domingos do araguaia,6
+270,São Domingos do Capim,sao domingos do capim,6
+271,São Félix do Xingu,sao felix do xingu,6
+272,São Francisco do Pará,sao francisco do para,6
+273,São Geraldo do Araguaia,sao geraldo do araguaia,6
+274,São João da Ponta,sao joao da ponta,6
+275,São João de Pirabas,sao joao de pirabas,6
+276,São João do Araguaia,sao joao do araguaia,6
+277,São Miguel do Guamá,sao miguel do guama,6
+278,São Sebastião da Boa Vista,sao sebastiao da boa vista,6
+279,Sapucaia,sapucaia,6
+280,Senador José Porfírio,senador jose porfirio,6
+281,Soure,soure,6
+282,Tailândia,tailandia,6
+283,Terra Alta,terra alta,6
+284,Terra Santa,terra santa,6
+285,Tomé-Açu,tome-acu,6
+286,Tracuateua,tracuateua,6
+287,Trairão,trairao,6
+288,Tucumã,tucuma,6
+289,Tucuruí,tucurui,6
+290,Ulianópolis,ulianopolis,6
+291,Uruará,uruara,6
+292,Vigia,vigia,6
+293,Viseu,viseu,6
+294,Vitória do Xingu,vitoria do xingu,6
+295,Xinguara,xinguara,6
+296,Amapá,amapa,2
+297,Calçoene,calcoene,2
+298,Cutias,cutias,2
+299,Ferreira Gomes,ferreira gomes,2
+300,Itaubal,itaubal,2
+301,Laranjal do Jari,laranjal do jari,2
+302,Macapá,macapa,2
+303,Mazagão,mazagao,2
+304,Oiapoque,oiapoque,2
+305,Pedra Branca do Amapari,pedra branca do amapari,2
+306,Porto Grande,porto grande,2
+307,Pracuúba,pracuuba,2
+308,Santana,santana,2
+309,Serra do Navio,serra do navio,2
+310,Tartarugalzinho,tartarugalzinho,2
+311,Vitória do Jari,vitoria do jari,2
+312,Abreulândia,abreulandia,9
+313,Aguiarnópolis,aguiarnopolis,9
+314,Aliança do Tocantins,alianca do tocantins,9
+315,Almas,almas,9
+316,Alvorada,alvorada,9
+317,Ananás,ananas,9
+318,Angico,angico,9
+319,Aparecida do Rio Negro,aparecida do rio negro,9
+320,Aragominas,aragominas,9
+321,Araguacema,araguacema,9
+322,Araguaçu,araguacu,9
+323,Araguaína,araguaina,9
+324,Araguanã,araguana,9
+325,Araguatins,araguatins,9
+326,Arapoema,arapoema,9
+327,Arraias,arraias,9
+328,Augustinópolis,augustinopolis,9
+329,Aurora do Tocantins,aurora do tocantins,9
+330,Axixá do Tocantins,axixa do tocantins,9
+331,Babaçulândia,babaculandia,9
+332,Bandeirantes do Tocantins,bandeirantes do tocantins,9
+333,Barra do Ouro,barra do ouro,9
+334,Barrolândia,barrolandia,9
+335,Bernardo Sayão,bernardo sayao,9
+336,Bom Jesus do Tocantins,bom jesus do tocantins,9
+337,Brasilândia do Tocantins,brasilandia do tocantins,9
+338,Brejinho de Nazaré,brejinho de nazare,9
+339,Buriti do Tocantins,buriti do tocantins,9
+340,Cachoeirinha,cachoeirinha,9
+341,Campos Lindos,campos lindos,9
+342,Cariri do Tocantins,cariri do tocantins,9
+343,Carmolândia,carmolandia,9
+344,Carrasco Bonito,carrasco bonito,9
+345,Caseara,caseara,9
+346,Centenário,centenario,9
+347,Chapada da Natividade,chapada da natividade,9
+348,Chapada de Areia,chapada de areia,9
+349,Colinas do Tocantins,colinas do tocantins,9
+350,Colméia,colmeia,9
+351,Combinado,combinado,9
+352,Conceição do Tocantins,conceicao do tocantins,9
+353,Couto Magalhães,couto magalhaes,9
+354,Cristalândia,cristalandia,9
+355,Crixás do Tocantins,crixas do tocantins,9
+356,Darcinópolis,darcinopolis,9
+357,Dianópolis,dianopolis,9
+358,Divinópolis do Tocantins,divinopolis do tocantins,9
+359,Dois Irmãos do Tocantins,dois irmaos do tocantins,9
+360,Dueré,duere,9
+361,Esperantina,esperantina,9
+362,Fátima,fatima,9
+363,Figueirópolis,figueiropolis,9
+364,Filadélfia,filadelfia,9
+365,Formoso do Araguaia,formoso do araguaia,9
+366,Goianorte,goianorte,9
+367,Goiatins,goiatins,9
+368,Guaraí,guarai,9
+369,Gurupi,gurupi,9
+370,Ipueiras,ipueiras,9
+371,Itacajá,itacaja,9
+372,Itaguatins,itaguatins,9
+373,Itapiratins,itapiratins,9
+374,Itaporã do Tocantins,itapora do tocantins,9
+375,Jaú do Tocantins,jau do tocantins,9
+376,Juarina,juarina,9
+377,Lagoa da Confusão,lagoa da confusao,9
+378,Lagoa do Tocantins,lagoa do tocantins,9
+379,Lajeado,lajeado,9
+380,Lavandeira,lavandeira,9
+381,Lizarda,lizarda,9
+382,Luzinópolis,luzinopolis,9
+383,Marianópolis do Tocantins,marianopolis do tocantins,9
+384,Mateiros,mateiros,9
+385,Maurilândia do Tocantins,maurilandia do tocantins,9
+386,Miracema do Tocantins,miracema do tocantins,9
+387,Miranorte,miranorte,9
+388,Monte do Carmo,monte do carmo,9
+389,Monte Santo do Tocantins,monte santo do tocantins,9
+390,Muricilândia,muricilandia,9
+391,Natividade,natividade,9
+392,Nazaré,nazare,9
+393,Nova Olinda,nova olinda,9
+394,Nova Rosalândia,nova rosalandia,9
+395,Novo Acordo,novo acordo,9
+396,Novo Alegre,novo alegre,9
+397,Novo Jardim,novo jardim,9
+398,Oliveira de Fátima,oliveira de fatima,9
+399,Palmas,palmas,9
+400,Palmeirante,palmeirante,9
+401,Palmeiras do Tocantins,palmeiras do tocantins,9
+402,Palmeirópolis,palmeiropolis,9
+403,Paraíso do Tocantins,paraiso do tocantins,9
+404,Paranã,parana,9
+405,Pau D'Arco,pau d'arco,9
+406,Pedro Afonso,pedro afonso,9
+407,Peixe,peixe,9
+408,Pequizeiro,pequizeiro,9
+409,Pindorama do Tocantins,pindorama do tocantins,9
+410,Piraquê,piraque,9
+411,Pium,pium,9
+412,Ponte Alta do Bom Jesus,ponte alta do bom jesus,9
+413,Ponte Alta do Tocantins,ponte alta do tocantins,9
+414,Porto Alegre do Tocantins,porto alegre do tocantins,9
+415,Porto Nacional,porto nacional,9
+416,Praia Norte,praia norte,9
+417,Presidente Kennedy,presidente kennedy,9
+418,Pugmil,pugmil,9
+419,Recursolândia,recursolandia,9
+420,Riachinho,riachinho,9
+421,Rio da Conceição,rio da conceicao,9
+422,Rio dos Bois,rio dos bois,9
+423,Rio Sono,rio sono,9
+424,Sampaio,sampaio,9
+425,Sandolândia,sandolandia,9
+426,Santa Fé do Araguaia,santa fe do araguaia,9
+427,Santa Maria do Tocantins,santa maria do tocantins,9
+428,Santa Rita do Tocantins,santa rita do tocantins,9
+429,Santa Rosa do Tocantins,santa rosa do tocantins,9
+430,Santa Tereza do Tocantins,santa tereza do tocantins,9
+431,Santa Terezinha do Tocantins,santa terezinha do tocantins,9
+432,São Bento do Tocantins,sao bento do tocantins,9
+433,São Félix do Tocantins,sao felix do tocantins,9
+434,São Miguel do Tocantins,sao miguel do tocantins,9
+435,São Salvador do Tocantins,sao salvador do tocantins,9
+436,São Sebastião do Tocantins,sao sebastiao do tocantins,9
+437,São Valério,sao valerio,9
+438,Silvanópolis,silvanopolis,9
+439,Sítio Novo do Tocantins,sitio novo do tocantins,9
+440,Sucupira,sucupira,9
+441,Tabocão,tabocao,9
+442,Taguatinga,taguatinga,9
+443,Taipas do Tocantins,taipas do tocantins,9
+444,Talismã,talisma,9
+445,Tocantínia,tocantinia,9
+446,Tocantinópolis,tocantinopolis,9
+447,Tupirama,tupirama,9
+448,Tupiratins,tupiratins,9
+449,Wanderlândia,wanderlandia,9
+450,Xambioá,xambioa,9
+451,Açailândia,acailandia,4
+452,Afonso Cunha,afonso cunha,4
+453,Água Doce do Maranhão,agua doce do maranhao,4
+454,Alcântara,alcantara,4
+455,Aldeias Altas,aldeias altas,4
+456,Altamira do Maranhão,altamira do maranhao,4
+457,Alto Alegre do Maranhão,alto alegre do maranhao,4
+458,Alto Alegre do Pindaré,alto alegre do pindare,4
+459,Alto Parnaíba,alto parnaiba,4
+460,Amapá do Maranhão,amapa do maranhao,4
+461,Amarante do Maranhão,amarante do maranhao,4
+462,Anajatuba,anajatuba,4
+463,Anapurus,anapurus,4
+464,Apicum-Açu,apicum-acu,4
+465,Araguanã,araguana,4
+466,Araioses,araioses,4
+467,Arame,arame,4
+468,Arari,arari,4
+469,Axixá,axixa,4
+470,Bacabal,bacabal,4
+471,Bacabeira,bacabeira,4
+472,Bacuri,bacuri,4
+473,Bacurituba,bacurituba,4
+474,Balsas,balsas,4
+475,Barão de Grajaú,barao de grajau,4
+476,Barra do Corda,barra do corda,4
+477,Barreirinhas,barreirinhas,4
+478,Bela Vista do Maranhão,bela vista do maranhao,4
+479,Belágua,belagua,4
+480,Benedito Leite,benedito leite,4
+481,Bequimão,bequimao,4
+482,Bernardo do Mearim,bernardo do mearim,4
+483,Boa Vista do Gurupi,boa vista do gurupi,4
+484,Bom Jardim,bom jardim,4
+485,Bom Jesus das Selvas,bom jesus das selvas,4
+486,Bom Lugar,bom lugar,4
+487,Brejo,brejo,4
+488,Brejo de Areia,brejo de areia,4
+489,Buriti,buriti,4
+490,Buriti Bravo,buriti bravo,4
+491,Buriticupu,buriticupu,4
+492,Buritirana,buritirana,4
+493,Cachoeira Grande,cachoeira grande,4
+494,Cajapió,cajapio,4
+495,Cajari,cajari,4
+496,Campestre do Maranhão,campestre do maranhao,4
+497,Cândido Mendes,candido mendes,4
+498,Cantanhede,cantanhede,4
+499,Capinzal do Norte,capinzal do norte,4
+500,Carolina,carolina,4
+501,Carutapera,carutapera,4
+502,Caxias,caxias,4
+503,Cedral,cedral,4
+504,Central do Maranhão,central do maranhao,4
+505,Centro do Guilherme,centro do guilherme,4
+506,Centro Novo do Maranhão,centro novo do maranhao,4
+507,Chapadinha,chapadinha,4
+508,Cidelândia,cidelandia,4
+509,Codó,codo,4
+510,Coelho Neto,coelho neto,4
+511,Colinas,colinas,4
+512,Conceição do Lago-Açu,conceicao do lago-acu,4
+513,Coroatá,coroata,4
+514,Cururupu,cururupu,4
+515,Davinópolis,davinopolis,4
+516,Dom Pedro,dom pedro,4
+517,Duque Bacelar,duque bacelar,4
+518,Esperantinópolis,esperantinopolis,4
+519,Estreito,estreito,4
+520,Feira Nova do Maranhão,feira nova do maranhao,4
+521,Fernando Falcão,fernando falcao,4
+522,Formosa da Serra Negra,formosa da serra negra,4
+523,Fortaleza dos Nogueiras,fortaleza dos nogueiras,4
+524,Fortuna,fortuna,4
+525,Godofredo Viana,godofredo viana,4
+526,Gonçalves Dias,goncalves dias,4
+527,Governador Archer,governador archer,4
+528,Governador Edison Lobão,governador edison lobao,4
+529,Governador Eugênio Barros,governador eugenio barros,4
+530,Governador Luiz Rocha,governador luiz rocha,4
+531,Governador Newton Bello,governador newton bello,4
+532,Governador Nunes Freire,governador nunes freire,4
+533,Graça Aranha,graca aranha,4
+534,Grajaú,grajau,4
+535,Guimarães,guimaraes,4
+536,Humberto de Campos,humberto de campos,4
+537,Icatu,icatu,4
+538,Igarapé do Meio,igarape do meio,4
+539,Igarapé Grande,igarape grande,4
+540,Imperatriz,imperatriz,4
+541,Itaipava do Grajaú,itaipava do grajau,4
+542,Itapecuru Mirim,itapecuru mirim,4
+543,Itinga do Maranhão,itinga do maranhao,4
+544,Jatobá,jatoba,4
+545,Jenipapo dos Vieiras,jenipapo dos vieiras,4
+546,João Lisboa,joao lisboa,4
+547,Joselândia,joselandia,4
+548,Junco do Maranhão,junco do maranhao,4
+549,Lago da Pedra,lago da pedra,4
+550,Lago do Junco,lago do junco,4
+551,Lago dos Rodrigues,lago dos rodrigues,4
+552,Lago Verde,lago verde,4
+553,Lagoa do Mato,lagoa do mato,4
+554,Lagoa Grande do Maranhão,lagoa grande do maranhao,4
+555,Lajeado Novo,lajeado novo,4
+556,Lima Campos,lima campos,4
+557,Loreto,loreto,4
+558,Luís Domingues,luis domingues,4
+559,Magalhães de Almeida,magalhaes de almeida,4
+560,Maracaçumé,maracacume,4
+561,Marajá do Sena,maraja do sena,4
+562,Maranhãozinho,maranhaozinho,4
+563,Mata Roma,mata roma,4
+564,Matinha,matinha,4
+565,Matões,matoes,4
+566,Matões do Norte,matoes do norte,4
+567,Milagres do Maranhão,milagres do maranhao,4
+568,Mirador,mirador,4
+569,Miranda do Norte,miranda do norte,4
+570,Mirinzal,mirinzal,4
+571,Monção,moncao,4
+572,Montes Altos,montes altos,4
+573,Morros,morros,4
+574,Nina Rodrigues,nina rodrigues,4
+575,Nova Colinas,nova colinas,4
+576,Nova Iorque,nova iorque,4
+577,Nova Olinda do Maranhão,nova olinda do maranhao,4
+578,Olho d'Água das Cunhãs,olho d'agua das cunhas,4
+579,Olinda Nova do Maranhão,olinda nova do maranhao,4
+580,Paço do Lumiar,paco do lumiar,4
+581,Palmeirândia,palmeirandia,4
+582,Paraibano,paraibano,4
+583,Parnarama,parnarama,4
+584,Passagem Franca,passagem franca,4
+585,Pastos Bons,pastos bons,4
+586,Paulino Neves,paulino neves,4
+587,Paulo Ramos,paulo ramos,4
+588,Pedreiras,pedreiras,4
+589,Pedro do Rosário,pedro do rosario,4
+590,Penalva,penalva,4
+591,Peri Mirim,peri mirim,4
+592,Peritoró,peritoro,4
+593,Pindaré-Mirim,pindare-mirim,4
+594,Pinheiro,pinheiro,4
+595,Pio XII,pio xii,4
+596,Pirapemas,pirapemas,4
+597,Poção de Pedras,pocao de pedras,4
+598,Porto Franco,porto franco,4
+599,Porto Rico do Maranhão,porto rico do maranhao,4
+600,Presidente Dutra,presidente dutra,4
+601,Presidente Juscelino,presidente juscelino,4
+602,Presidente Médici,presidente medici,4
+603,Presidente Sarney,presidente sarney,4
+604,Presidente Vargas,presidente vargas,4
+605,Primeira Cruz,primeira cruz,4
+606,Raposa,raposa,4
+607,Riachão,riachao,4
+608,Ribamar Fiquene,ribamar fiquene,4
+609,Rosário,rosario,4
+610,Sambaíba,sambaiba,4
+611,Santa Filomena do Maranhão,santa filomena do maranhao,4
+612,Santa Helena,santa helena,4
+613,Santa Inês,santa ines,4
+614,Santa Luzia,santa luzia,4
+615,Santa Luzia do Paruá,santa luzia do parua,4
+616,Santa Quitéria do Maranhão,santa quiteria do maranhao,4
+617,Santa Rita,santa rita,4
+618,Santana do Maranhão,santana do maranhao,4
+619,Santo Amaro do Maranhão,santo amaro do maranhao,4
+620,Santo Antônio dos Lopes,santo antonio dos lopes,4
+621,São Benedito do Rio Preto,sao benedito do rio preto,4
+622,São Bento,sao bento,4
+623,São Bernardo,sao bernardo,4
+624,São Domingos do Azeitão,sao domingos do azeitao,4
+625,São Domingos do Maranhão,sao domingos do maranhao,4
+626,São Félix de Balsas,sao felix de balsas,4
+627,São Francisco do Brejão,sao francisco do brejao,4
+628,São Francisco do Maranhão,sao francisco do maranhao,4
+629,São João Batista,sao joao batista,4
+630,São João do Carú,sao joao do caru,4
+631,São João do Paraíso,sao joao do paraiso,4
+632,São João do Soter,sao joao do soter,4
+633,São João dos Patos,sao joao dos patos,4
+634,São José de Ribamar,sao jose de ribamar,4
+635,São José dos Basílios,sao jose dos basilios,4
+636,São Luís,sao luis,4
+637,São Luís Gonzaga do Maranhão,sao luis gonzaga do maranhao,4
+638,São Mateus do Maranhão,sao mateus do maranhao,4
+639,São Pedro da Água Branca,sao pedro da agua branca,4
+640,São Pedro dos Crentes,sao pedro dos crentes,4
+641,São Raimundo das Mangabeiras,sao raimundo das mangabeiras,4
+642,São Raimundo do Doca Bezerra,sao raimundo do doca bezerra,4
+643,São Roberto,sao roberto,4
+644,São Vicente Ferrer,sao vicente ferrer,4
+645,Satubinha,satubinha,4
+646,Senador Alexandre Costa,senador alexandre costa,4
+647,Senador La Rocque,senador la rocque,4
+648,Serrano do Maranhão,serrano do maranhao,4
+649,Sítio Novo,sitio novo,4
+650,Sucupira do Norte,sucupira do norte,4
+651,Sucupira do Riachão,sucupira do riachao,4
+652,Tasso Fragoso,tasso fragoso,4
+653,Timbiras,timbiras,4
+654,Timon,timon,4
+655,Trizidela do Vale,trizidela do vale,4
+656,Tufilândia,tufilandia,4
+657,Tuntum,tuntum,4
+658,Turiaçu,turiacu,4
+659,Turilândia,turilandia,4
+660,Tutóia,tutoia,4
+661,Urbano Santos,urbano santos,4
+662,Vargem Grande,vargem grande,4
+663,Viana,viana,4
+664,Vila Nova dos Martírios,vila nova dos martirios,4
+665,Vitória do Mearim,vitoria do mearim,4
+666,Vitorino Freire,vitorino freire,4
+667,Zé Doca,ze doca,4
+668,Acorizal,acorizal,5
+669,Água Boa,agua boa,5
+670,Alta Floresta,alta floresta,5
+671,Alto Araguaia,alto araguaia,5
+672,Alto Boa Vista,alto boa vista,5
+673,Alto Garças,alto garcas,5
+674,Alto Paraguai,alto paraguai,5
+675,Alto Taquari,alto taquari,5
+676,Apiacás,apiacas,5
+677,Araguaiana,araguaiana,5
+678,Araguainha,araguainha,5
+679,Araputanga,araputanga,5
+680,Arenápolis,arenapolis,5
+681,Aripuanã,aripuana,5
+682,Barão de Melgaço,barao de melgaco,5
+683,Barra do Bugres,barra do bugres,5
+684,Barra do Garças,barra do garcas,5
+685,Boa Esperança do Norte,boa esperanca do norte,5
+686,Bom Jesus do Araguaia,bom jesus do araguaia,5
+687,Brasnorte,brasnorte,5
+688,Cáceres,caceres,5
+689,Campinápolis,campinapolis,5
+690,Campo Novo do Parecis,campo novo do parecis,5
+691,Campo Verde,campo verde,5
+692,Campos de Júlio,campos de julio,5
+693,Canabrava do Norte,canabrava do norte,5
+694,Canarana,canarana,5
+695,Carlinda,carlinda,5
+696,Castanheira,castanheira,5
+697,Chapada dos Guimarães,chapada dos guimaraes,5
+698,Cláudia,claudia,5
+699,Cocalinho,cocalinho,5
+700,Colíder,colider,5
+701,Colniza,colniza,5
+702,Comodoro,comodoro,5
+703,Confresa,confresa,5
+704,Conquista D'Oeste,conquista d'oeste,5
+705,Cotriguaçu,cotriguacu,5
+706,Cuiabá,cuiaba,5
+707,Curvelândia,curvelandia,5
+708,Denise,denise,5
+709,Diamantino,diamantino,5
+710,Dom Aquino,dom aquino,5
+711,Feliz Natal,feliz natal,5
+712,Figueirópolis D'Oeste,figueiropolis d'oeste,5
+713,Gaúcha do Norte,gaucha do norte,5
+714,General Carneiro,general carneiro,5
+715,Glória D'Oeste,gloria d'oeste,5
+716,Guarantã do Norte,guaranta do norte,5
+717,Guiratinga,guiratinga,5
+718,Indiavaí,indiavai,5
+719,Ipiranga do Norte,ipiranga do norte,5
+720,Itanhangá,itanhanga,5
+721,Itaúba,itauba,5
+722,Itiquira,itiquira,5
+723,Jaciara,jaciara,5
+724,Jangada,jangada,5
+725,Jauru,jauru,5
+726,Juara,juara,5
+727,Juína,juina,5
+728,Juruena,juruena,5
+729,Juscimeira,juscimeira,5
+730,Lambari D'Oeste,lambari d'oeste,5
+731,Lucas do Rio Verde,lucas do rio verde,5
+732,Luciara,luciara,5
+733,Marcelândia,marcelandia,5
+734,Matupá,matupa,5
+735,Mirassol d'Oeste,mirassol d'oeste,5
+736,Nobres,nobres,5
+737,Nortelândia,nortelandia,5
+738,Nossa Senhora do Livramento,nossa senhora do livramento,5
+739,Nova Bandeirantes,nova bandeirantes,5
+740,Nova Brasilândia,nova brasilandia,5
+741,Nova Canaã do Norte,nova canaa do norte,5
+742,Nova Guarita,nova guarita,5
+743,Nova Lacerda,nova lacerda,5
+744,Nova Marilândia,nova marilandia,5
+745,Nova Maringá,nova maringa,5
+746,Nova Monte Verde,nova monte verde,5
+747,Nova Mutum,nova mutum,5
+748,Nova Nazaré,nova nazare,5
+749,Nova Olímpia,nova olimpia,5
+750,Nova Santa Helena,nova santa helena,5
+751,Nova Ubiratã,nova ubirata,5
+752,Nova Xavantina,nova xavantina,5
+753,Novo Horizonte do Norte,novo horizonte do norte,5
+754,Novo Mundo,novo mundo,5
+755,Novo Santo Antônio,novo santo antonio,5
+756,Novo São Joaquim,novo sao joaquim,5
+757,Paranaíta,paranaita,5
+758,Paranatinga,paranatinga,5
+759,Pedra Preta,pedra preta,5
+760,Peixoto de Azevedo,peixoto de azevedo,5
+761,Planalto da Serra,planalto da serra,5
+762,Poconé,pocone,5
+763,Pontal do Araguaia,pontal do araguaia,5
+764,Ponte Branca,ponte branca,5
+765,Pontes e Lacerda,pontes e lacerda,5
+766,Porto Alegre do Norte,porto alegre do norte,5
+767,Porto dos Gaúchos,porto dos gauchos,5
+768,Porto Esperidião,porto esperidiao,5
+769,Porto Estrela,porto estrela,5
+770,Poxoréu,poxoreu,5
+771,Primavera do Leste,primavera do leste,5
+772,Querência,querencia,5
+773,Reserva do Cabaçal,reserva do cabacal,5
+774,Ribeirão Cascalheira,ribeirao cascalheira,5
+775,Ribeirãozinho,ribeiraozinho,5
+776,Rio Branco,rio branco,5
+777,Rondolândia,rondolandia,5
+778,Rondonópolis,rondonopolis,5
+779,Rosário Oeste,rosario oeste,5
+780,Salto do Céu,salto do ceu,5
+781,Santa Carmem,santa carmem,5
+782,Santa Cruz do Xingu,santa cruz do xingu,5
+783,Santa Rita do Trivelato,santa rita do trivelato,5
+784,Santa Terezinha,santa terezinha,5
+785,Santo Afonso,santo afonso,5
+786,Santo Antônio de Leverger,santo antonio de leverger,5
+787,Santo Antônio do Leste,santo antonio do leste,5
+788,São Félix do Araguaia,sao felix do araguaia,5
+789,São José do Povo,sao jose do povo,5
+790,São José do Rio Claro,sao jose do rio claro,5
+791,São José do Xingu,sao jose do xingu,5
+792,São José dos Quatro Marcos,sao jose dos quatro marcos,5
+793,São Pedro da Cipa,sao pedro da cipa,5
+794,Sapezal,sapezal,5
+795,Serra Nova Dourada,serra nova dourada,5
+796,Sinop,sinop,5
+797,Sorriso,sorriso,5
+798,Tabaporã,tabapora,5
+799,Tangará da Serra,tangara da serra,5
+800,Tapurah,tapurah,5
+801,Terra Nova do Norte,terra nova do norte,5
+802,Tesouro,tesouro,5
+803,Torixoréu,torixoreu,5
+804,União do Sul,uniao do sul,5
+805,Vale de São Domingos,vale de sao domingos,5
+806,Várzea Grande,varzea grande,5
+807,Vera,vera,5
+808,Vila Bela da Santíssima Trindade,vila bela da santissima trindade,5
+809,Vila Rica,vila rica,5

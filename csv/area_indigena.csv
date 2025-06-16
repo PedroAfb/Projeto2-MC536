@@ -1,0 +1,382 @@
+id_area_indigena,nome
+1,Merure
+2,Taihantesu
+3,Escondido
+4,Cajuhiri Atravessado
+5,Ponciano
+6,Padre
+7,Jabuti
+8,Pequizal do Naruvôtu
+9,São Domingos do Jacapari e Estação
+10,Areões
+11,Rio Pindaré
+12,São Pedro
+13,Uaçá
+14,Ipixuna
+15,Kanela Memortumré
+16,Patauá
+17,Batelão
+18,Funil
+19,Uati-Paraná
+20,Rio Manicoré
+21,Utaria Wyhyna/Iròdu Iràna
+22,Ouro
+23,Lago Aiapua
+24,Figueiras
+25,Porto Limoeiro
+26,Apipica
+27,Rio Téa
+28,Zoe
+29,Menkü
+30,Sororó
+31,Tanaru
+32,Governador
+33,São Leopoldo
+34,Batovi
+35,Karajá Santana do Araguaia
+36,Tadarimana
+37,Uneiuxi
+38,Lago do Limão
+39,Maranduba
+40,Kwazá do Rio São Pedro
+41,Trombetas/Mapuera
+42,Tirecatinga
+43,Sagarana
+44,Ilha do Camaleão
+45,Natal/Felicidade
+46,Vui-Uata-In
+47,Barata Livramento
+48,Jacamim
+49,São Sebastião
+50,Parque do Tumucumaque
+51,Apinayé
+52,Vale do Javari
+53,Lago Capanã
+54,Jatuarana
+55,Cajueiro
+56,Las Casas
+57,Pequizal
+58,Kawahiva do Rio Pardo
+59,Maraã Urubaxi
+60,Paumari do Lago Manissuã
+61,Tembé
+62,Baía dos Guató
+63,Karajá de Aruanã III
+64,Praia do Índio
+65,Rio Formoso
+66,Praia do Mangue
+67,Anta
+68,Rodeador
+69,Rio Jumas
+70,Miguel/Josefa
+71,Waiãpi
+72,Tukuna Porto Espiritual
+73,Portal do Encantado
+74,Ubawawe
+75,Prosperidade
+76,Diahui
+77,Truaru
+78,Rio Omerê
+79,Arary
+80,Poyanawa
+81,Paumari do Cuniua
+82,Lagoa Comprida
+83,Galibi
+84,Utiariti
+85,Tabalascada
+86,Xerente
+87,Xambioá
+88,Kanela
+89,São Marcos - MT
+91,Krahó-Kanela
+92,Kraolandia
+93,Manoa/Pium
+94,Lago Jauari
+95,Pimentel Barbosa
+96,Juininha
+97,São Domingos - MT
+98,Maracaxi
+99,Guató
+100,Rio Apaporis
+101,Trocará - Doação
+102,Xipaya
+103,Serra da Moça
+104,Torá
+105,Sucuba
+106,Inawebohona
+107,Nove de Janeiro
+108,Pirititi
+109,Lago do Marinheiro
+110,Marechal Rondon
+111,Tikúna de Feijoal
+112,Umutina
+113,Tereza Cristina
+114,Tubarão Latunde
+115,Rio Biá
+116,Estação Parecis
+117,Bom Jesus
+118,Paresi
+119,Perigara
+120,Chão Preto
+121,Lago do Beruri
+122,Boa Vista - AM
+123,Cacique Fontoura
+124,Mangueira
+125,Uty-Xunaty
+126,Sururuá
+127,Apurinã do Igarapé São João
+128,Bakairi
+129,Porquinhos dos Canela-Apãnjekra
+130,Tenharim do Igarapé Preto
+131,Riozinho
+132,Médio Rio Negro II
+133,Lagoa dos Brincos
+134,Morro Branco
+135,Karajá de Aruanã II
+136,Sangradouro/Volta Grande
+137,Urucu/Juruá
+138,Krenrehé
+139,Parana do Boa Boa
+140,Parana do Paricá
+141,Tukuna Umariaçu
+142,Médio Rio Negro I
+143,Ponta da Serra
+144,Nova Esperança do Rio Jandiatuba
+145,Parque do Araguaia
+146,Ariramba
+147,Tapirapé/Karajá
+148,Cuia
+149,Wawi
+150,Recreio/São Félix
+151,Massaco
+152,Maraitá
+153,Fortaleza do Patauá
+154,Barreirinha
+155,Anambé
+156,Porquinhos
+157,Rio Paru DEste
+158,Ponte de Pedra
+159,Jarudore
+160,Muriru
+161,Meria
+162,Parabubure
+163,Taego Ãwa
+164,Itaitinga
+165,Turé/Mariquita
+166,Wedezé
+167,Uirapuru
+168,Pium
+169,Santa Cruz da Nova Aliança
+170,Nhamundá/Mapuera
+171,Fortaleza do Castanho
+172,Juruna do Km 17
+173,Estivadinho
+174,Nova Jacundá
+175,Tikuna de Santo Antonio
+176,Jumina
+177,Tuwa Apekuokawera
+178,Paracuhuba
+179,Paumari do Rio Ituxi
+180,Jaquiri
+181,Lago do Correio
+182,Miratu
+183,Apiaka/Kayabi
+184,Alto Sepatini
+185,Mawetek
+186,Cué Cué/ Marabitanas
+187,Acimã
+188,Matintin
+189,Marajai
+190,Évare I
+191,Kulina do Rio Envira
+192,Estrela da Paz
+193,Kulina do Medio Jurua
+194,Juma
+195,Apurinã do Igarapé Mucuim
+196,Lauro Sodré
+197,Cuiu-Cuiu
+198,Rio Guaporé
+199,Betania
+200,Acapuri de Cima
+201,Jaminawa Arara do Rio Bagé
+202,Badjonkore
+203,Krenyê
+204,Santana
+205,São Pedro do Sepatini
+206,Paraná do Arauató
+207,Sapotal
+208,Ananás
+209,Guajahã
+210,Kaxinawá do Baixo Rio Jordão
+211,Balaio
+212,Paumari do Lago Paricá
+213,Cabeceira do Rio Acre
+214,Barro Alto
+215,Igarapé Taboca do Alto Tarauacá
+216,Hi Merimã
+217,Igarapé Grande
+218,Camicua
+219,Kumaru do Lago Ualá
+220,Jaminaua/Envira
+221,Espírito Santo
+222,Alto Rio Negro
+223,Igarapé do Caucho
+224,Évare II
+225,Mapari
+226,Jurubaxi-téa
+227,Guanabara
+228,Kaxinawá Colônia Vinte e Sete
+229,Krikati
+230,São Francisco do Canimari
+231,Macarrão
+232,Bom Intento
+233,Cacau do Tarauaca
+234,Karitiana
+235,Alto Tarauacá
+236,Anaro
+237,Camadeni
+238,Kanamari do Rio Juruá
+239,Banawá
+240,Igarapé Capana
+241,Jarawara/Jamamadi/Kanamati
+242,Parakanã
+243,Vista Alegre
+244,Apurinã Igarapé Tauamirim
+245,Bragança-Marituba
+246,Rio Gregório
+247,Uru-Eu-Wau-Wau
+248,Waimiri-Atroari
+249,Karipuna
+250,Terena Gleba Iriri
+251,Maró
+252,Kayabi
+253,Seruini/Mariene
+254,Kulina Igarapé do Pau
+255,Barreira da Missão
+256,Kaxarari
+257,Malacacheta
+258,Trocará
+259,Vale do Guaporé
+260,Kararaô
+261,Alto Turiaçu
+262,Trincheira Bacaja
+263,Ituna/Itatá
+264,Kaxinawá do Rio Jordão
+265,Jacareúba/Katauixi
+266,Apyterewa
+267,Nambikwara
+268,Manoki
+269,Awa
+270,Xikrin do Rio Catete
+271,Menkragnoti
+272,Catipari/Mamoria
+273,Amanayé
+274,Sepoti
+275,Zuruahã
+276,Canauanim
+277,Kampa e Isolados do Rio Envira
+278,Igarapé Lourdes
+279,Rio Mequens
+280,Paukalirajausu
+281,Deni
+282,Jaminawa do Igarapé Preto
+283,WaiWái
+284,Pinatuba
+285,Kaxinawá Seringal Independência
+286,Mãe Maria
+287,Mamoadate
+288,Boqueirão
+289,Bacurizinho
+290,Katukina/Kaxinawá
+291,Pacaas Novas
+292,Alto Rio Guamá
+294,Peneri/Tacaquiri
+295,Kaxinawá da Praia do Carapanã
+296,Arara
+297,Maraiwatsede
+298,Kayapó
+299,Arariboia
+300,Irantxe
+301,Cana Brava/Guajajara
+302,Arara da Volta Grande do Xingu
+303,Rio Negro Ocaia
+304,Cunhã-Sapucaia
+305,Cachoeira Seca
+306,Tenharim Marmelos
+307,Moskow
+308,Serra Morena
+309,Parque do Aripuanã
+310,Tabocal
+311,Munduruku
+312,Inauini/Teuini
+313,Andirá-Marau
+314,Yanomami
+315,Jauary
+316,Kaxuyana-Tunayana
+318,Água Preta/Inari
+319,Kampa do Igarapé Primavera
+320,Koatinemo
+321,Araweté Igarapé Ipixuna
+322,Aripuanã
+323,Gavião
+324,Roosevelt
+325,Apiaká do Pontal e Isolados
+326,Arara do Igarapé Humaitá
+327,Japuira
+328,Porto Praia
+329,Kampa do Rio Amônia
+330,Caru
+331,Sararé
+332,Caititu
+333,Itixi Mitari
+334,Sawré Muybu (Pimental)
+335,Setemã
+336,Zoró
+337,Sete de Setembro
+338,Turé/Mariquita II
+339,Nukini
+341,Alto Rio Purus
+342,Sarauá
+343,Geralda Toco Preto
+344,Boca do Acre
+345,Coata-Laranjal
+346,Kaxinawá Nova Olinda
+347,Arara do Rio Amônia
+348,Paquiçamba
+349,Enawenê-Nawê
+350,Baú
+351,Urubu Branco
+352,Murutinga/Tracaja
+353,Araçá
+354,Aningal
+355,Sai-Cinza
+356,Riozinho do Alto Envira
+357,Cobra Grande
+358,Pirahã
+359,Paumari do Lago Marahã
+360,Capoto/Jarina
+361,Apurinã Km 124 BR-317
+362,Rio Urubu
+363,Kuruáya
+364,Santa Inez
+365,Kaxinawá Ashaninka do Rio Breu
+366,Tenharim Marmelos (Gleba B)
+367,Campinas/Katukina
+368,Arara do Rio Branco
+369,Piripkura
+370,Tumiã
+371,Tupã-Supé
+372,Kaxinawá do Rio Humaitá
+374,São Marcos - RR
+375,Igarapé Lage
+376,Panará
+377,Raposa Serra do Sol
+378,Munduruku-Taquara
+379,Trincheira
+380,Parque do Xingu
+381,Raimundão
+382,Pirineus de Souza
+383,Igarapé Ribeirão
+385,Rio Branco
+386,Erikpatsá
+387,Sissaíma
