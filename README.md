@@ -2,12 +2,40 @@
 
 ## Visão Geral
 
-Projeto para a disciplina de Banco de Dados da Unicamp. O objetivo do projeto é criar um banco de dados utilizando dados relacionados a ODS 13 (Ação contra a Mudança Global do Clima), usando dados reais para o preenchimento do banco. O banco utilizado foi Neo4j.
+Projeto para a disciplina de Banco de Dados da Unicamp. O objetivo do projeto é realizar a migração do [Projeto 1](https://github.com/PedroAfb/MC536), que utiliza o Postgres, para o banco NoSQL Neo4j.
 
 Desenvolvido por:
 
 - [Pedro Borges](https://github.com/JoaoVgon31) (260628)
 - [João Vitor](https://github.com/PedroAfb) (237871)
+
+## Discussão sobre a escolha do Neo4j para o cenário C
+
+Diante de um cenário onde a **representação explícita de relações complexas entre entidades** é essencial, optamos pelo **Neo4j**, um banco de dados orientado a grafos. Essa escolha se justifica pelos seguintes aspectos:
+
+### Forma de armazenamento de arquivos
+
+O Neo4j utiliza um modelo de **armazenamento em grafo**, no qual nós, relacionamentos e propriedades são persistidos de forma otimizada para navegação em conexões. Diferentemente de bancos relacionais que armazenam dados em tabelas ou de bancos não relacionais orientados a documentos ou colunas, nos quais precisam realizar joins custosos, o Neo4j armazena as conexões diretamente entre os elementos, permitindo acessos rápidos e eficientes em consultas de múltiplos níveis.
+
+Dessa forma, para nosso cenário, na arquiterura de nossos dados e como queremos consultá-los, a otimização da navegação entre nós, permiti uma relevante otimização em nossas consultas, que focam justamente em achar padrões e correlacionar dados.
+
+### Linguagem e processamento de consultas
+
+O banco adota a linguagem Cypher, desenhada especificamente para lidar com padrões de relacionamento. Ela permite consultas concisas e intuitivas sobre caminhos e estruturas complexas no grafo. Isso é particularmente vantajoso no nosso cenário, onde as consultas envolvem relações indiretas e múltiplos níveis de relacionamento, como identificar padrões em cadeias de conexões ou entidades relacionadas por diversos caminhos. Em comparação, DuckDB e MongoDB exigiriam abordagens mais verbosas e menos performáticas para esse tipo de tarefa.
+
+### Processamento e controle de transações
+
+O Neo4j oferece suporte completo às propriedades ACID (Atomicidade, Consistência, Isolamento e Durabilidade), garantindo integridade dos dados mesmo em operações complexas sobre múltiplas entidades conectadas. Isso atende ao requisito de regras de consistência fortes e suporte transacional, algo crítico no nosso contexto, onde falhas em transações intermediárias poderiam comprometer múltiplos relacionamentos em cadeia.
+
+### Segurança e Mecanismos de recuperação
+
+O banco oferece mecanismos avançados de autenticação e controle de acesso baseado em papéis (RBAC - Role-based acess control), permitindo definir permissões específicas por tipo de dado ou operação. Esse mecanismo é importante em sistemas que lidam com diferentes tipos de usuários e informações sensíveis ligadas por conexões lógicas.
+O Neo4j possui mecanismos robustos de recuperação de falhas, incluindo logs de transação (WAL), checkpoints periódicos e recuperação automática em casos de interrupção inesperada. Esses mecanismos garantem que, mesmo em caso de falha, o banco possa ser restaurado a um estado consistente, atendendo às exigências de durabilidade e confiabilidade do sistema.
+
+### Conclusão
+
+Frente à necessidade de navegar por relações profundas e complexas, manter forte consistência nas consultas e nos dados e garantir desempenho em consultas altamente relacionais, o Neo4j e seu banco de dados orientado a grafos se mostrou a escolha mais adequada. Bancos como MongoDB ou DuckDB, embora eficientes em outros contextos (documentos ou análises tabulares), não oferecem uma estrutura tão bem adaptada à natureza altamente conectada do conjunto de dados que enfrentamos.
+
 
 ## Objetivo do Projeto
 
