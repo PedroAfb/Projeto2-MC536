@@ -9,13 +9,14 @@ WITH e, dia, temp_max_dia, temp_min_dia, (temp_max_dia - temp_min_dia) AS variac
 ORDER BY variacao_diaria DESC
 
 WITH e,
-     collect({
+    avg(variacao_diaria) AS media_variacao,
+    collect({
         dia: dia, 
         variacao_diaria: variacao_diaria, 
         temp_max: temp_max_dia, 
         temp_min: temp_min_dia
-     }) AS variacoes_ordenadas
-WITH e, variacoes_ordenadas[0] AS dia_maior_variacao
+    }) AS variacoes_ordenadas
+WITH e, media_variacao, variacoes_ordenadas[0] AS dia_maior_variacao
 
 MATCH (e:EstacaoMeteorologica)-[:Pertence]->(c:Cidade)-[:Pertence]->(s:Estado)
 
@@ -26,6 +27,7 @@ RETURN
     dia_maior_variacao.dia AS dia_maior_variacao,
     dia_maior_variacao.variacao_diaria AS maior_variacao,
     dia_maior_variacao.temp_max AS temperatura_max,
-    dia_maior_variacao.temp_min AS temperatura_min
+    dia_maior_variacao.temp_min AS temperatura_min,
+    round(media_variacao, 2) AS media_variacao
 
 ORDER BY maior_variacao DESC
