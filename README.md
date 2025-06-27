@@ -17,7 +17,7 @@ Diante de um cenário onde a **representação explícita de relações complexa
 
 O Neo4j utiliza um modelo de **armazenamento em grafo**, no qual nós, relacionamentos e propriedades são persistidos de forma otimizada para navegação em conexões. Diferentemente de bancos relacionais que armazenam dados em tabelas ou de bancos não relacionais orientados a documentos ou colunas, nos quais precisam realizar joins custosos, o Neo4j armazena as conexões diretamente entre os elementos, permitindo acessos rápidos e eficientes em consultas de múltiplos níveis.
 
-Dessa forma, para nosso cenário, na arquiterura de nossos dados e como queremos consultá-los, a otimização da navegação entre nós, permiti uma relevante otimização em nossas consultas, que focam justamente em achar padrões e correlacionar dados.
+Dessa forma, para nosso cenário, na arquitetura de nossos dados e como queremos consultá-los, a otimização da navegação entre nós, permitiu uma relevante otimização em nossas consultas, que focam justamente em achar padrões e correlacionar dados.
 
 ### Linguagem e processamento de consultas
 
@@ -56,7 +56,7 @@ Esse projeto tem como objetivo reunir dados relacionados direta ou indiretamente
 ## Migração do Postgres para o Neo4j
 
 - Pegamos todas as tabelas que tínhamos no Postgres e transformamos em CSVs. Dessa forma, todo o processo de ETL que realizamos entre os datasets originais e a inserção no banco é reaproveitado através dos CSVs.
-- Seguimos o modelo lógico do Neo4j acima e populamos o banco de acordo com o arquivo *INSERIR O ARQUIVO QUE INTEGRA TODO O SCRIPT DE POPULAR O BANCO*
+- Seguimos o modelo lógico do Neo4j acima e populamos o banco de acordo com todos os arquivos inserts_* e o [Insert_all](https://github.com/PedroAfb/Projeto2-MC536/blob/main/insert_all.ipynb)
 
 ## Dicionario de Dados
 
@@ -135,24 +135,24 @@ Esse projeto tem como objetivo reunir dados relacionados direta ou indiretamente
 
 O preenchimento do banco de dados foi feito em **Python**, usando a biblioteca **neo4j**, com **Jupyter Notebook** para ajudar no controle de execução. Cada script segue uma estrutura padrão, contendo uma seção de inicial para realizar a conexão com o banco.
 
-**ALTERAR ISSO POSTERIORMENTE**O arquivo [insert_all](inserts/insert_all.ipynb) reúne todos os scripts individuais, permitindo executar todo o setup do banco de forma integrada e sequencial. Para mais detalhes veja a secão [Setup e Execução](#setup-e-execução)
+O arquivo [insert_all](https://github.com/PedroAfb/Projeto2-MC536/blob/main/insert_all.ipynb) reúne todos os scripts individuais, permitindo executar todo o setup do banco de forma integrada e sequencial. Para mais detalhes veja a secão [Setup e Execução](#setup-e-execução)
 
 Vale notar que nem todos os campos dos datasets originais foram utilizados, e alguns dados precisaram ser tratados ou derivados a partir dos dados dos datasets.
 
-### insert_regiao_administrativa
+### insert_estado_&_rg.ipynb
 
-- Insere regioes administrativas
+- Insere estados e regioes administrativas
+
+### insert_area_indigena
+
+- dataset: [Desmatamento](#desmatamento)
+- Insere áreas indígenas
 
 ### insert_emissao
 
 - dataset: [Emissao de Gases Amazônia Legal](#emissão-de-gases-amazônia-legal)
 - Insere relatórios de emissão de gases
 - Relaciona com regiões administrativas
-
-### insert_estado
-
-- Insere estados
-- Relaciona com regioes administrativa
 
 #### insert_queimadas
 
@@ -166,14 +166,6 @@ Vale notar que nem todos os campos dos datasets originais foram utilizados, e al
 - Insere cidades
 - Relaciona com Estados
 
-### insert_meteorologia
-
-- dataset: [Meteorologia](#meteorologia)
-- Insere estações meteorológicas
-- Insere relatórios de meteorologia
-- Relaciona cidade com estações meteorológicas
-- Relaciona estações meteorológicas com relatórios de meteorologia
-
 ### insert_unidade_conservacao
 
 - dataset: [Unidades de Conservação](#unidades-de-conservação)
@@ -181,28 +173,19 @@ Vale notar que nem todos os campos dos datasets originais foram utilizados, e al
 - Relaciona com Estados
 - Relaciona com Cidades
 
-### insert_indigena
+### insert_meteorologia
 
-- dataset: [Desmatamento](#desmatamento)
-- Insere áreas indígenas
+- dataset: [Meteorologia](#meteorologia)
+- Insere estações meteorológicas
+- Insere relatórios de meteorologia
+- Relaciona cidade com estações meteorológicas
+- Relaciona a aresta de dados meteorológicos 
 
-### insert_desmatamento_cidade
-
-- dataset: [Desmatamento](#desmatamento)
-- Insere relatórios de desmatamento
-- Relaciona com Cidades
-
-### insert_desmatamento_unidade_conservacao
+### insert_desmatamento
 
 - dataset: [Desmatamento](#desmatamento)
 - Insere relatórios de desmatamento
-- Relaciona com Unidades de conservação
-
-### insert_desmatamento_indigena
-
-- dataset: [Desmatamento](#desmatamento)
-- Insere relatórios de desmatamento
-- Relaciona com áreas indígenas
+- Relaciona com Cidades ou Áreas Indígenas ou Unidades de Conservação
 
 ## Setup e Execução
 
@@ -221,7 +204,7 @@ Para começar:
 
 Esta consulta identifica, para cada estação meteorológica, o dia com a maior variação diária de temperatura (diferença entre a máxima e mínima) registrada, mostrando a data, os valores extremos do dia e a variação, além de calcular a média geral das variações diárias daquela estação ao longo do período; os resultados incluem também o nome da estação, cidade e estado, permitindo comparar os dias mais extremos de cada local com seu comportamento médio, tudo organizado em ordem decrescente pela maior variação registrada.
 
-- [Script SQL](consultas/consulta_1.sql)
+- [Script](consultas/consulta_1.txt)
 - [Resultado CSV](consultas/resultado_1.csv)
 
 ### Consulta 2
@@ -230,26 +213,26 @@ Esta consulta calcula, para cada cidade que possui pelo menos uma unidade de con
 
 - \*Unidade de conservacão exclusiva é aquela associada somente a uma cidade, ou seja, cujo território abrange apenas uma cidade
 
-- [Script SQL](consultas/consulta_2.sql)
+- [Script](consultas/consulta_2.txt)
 - [Resultado CSV](consultas/resultado_2.csv)
 
 ### Consulta 3
 
 Esta consulta reúne, para cada ano, os dados agregados da Amazônia Legal combinando três grandes dimensões: (1) o total anual de emissão de gases de efeito estufa, (2) a temperatura média anual calculada a partir das médias estaduais (baseada em temperaturas máximas e mínimas), e (3) o total anual de focos de queimadas registrados; ela cruza essas informações ano a ano, garantindo que só sejam considerados os anos onde há dados disponíveis em todas as três fontes, e entrega uma visão consolidada que permite analisar possíveis correlações entre temperatura, queimadas e emissões na região ao longo do tempo.
 
-- [Script SQL](consultas/consulta_3.sql)
+- [Script](consultas/consulta_3.txt)
 - [Resultado CSV](consultas/resultado_3.csv)
 
 ### Consulta 4
 
 Esta consulta retorna as 10 áreas mais desmatadas, considerando tanto áreas indígenas quanto unidades de conservação, combinando os dados das duas entidades. Para cada área, ela exibe o nome, o tipo (explicitamente marcado como Área Indígena ou Unidade de Conservação) e o total acumulado de desmatamento em km², ordenando os resultados do maior para o menor total desmatado e limitando a exibição às dez primeiras posições, ou seja, às áreas mais impactadas pelo desmatamento.
 
-- [Script SQL](consultas/consulta_4.sql)
+- [Script](consultas/consulta_4.txt)
 - [Resultado CSV](consultas/resultado_4.csv)
 
 ### Consulta 5
 
 Essa consulta tem como objetivo calcular, para cada uma das cinco grandes regiões administrativas do Brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul), a soma total da área da Amazônia presente nas unidades de conservação localizadas em seus estados, a soma total da área desmatada nessas unidades e o percentual que essa área desmatada representa em relação à área total amazônica.
 
-- [Script SQL](consultas/consulta_5.sql)
+- [Script](consultas/consulta_5.txt)
 - [Resultado CSV](consultas/resultado_5.csv)
