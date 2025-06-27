@@ -189,14 +189,14 @@ Vale notar que nem todos os campos dos datasets originais foram utilizados, e al
 
 ## Setup e Execução
 
-O arquivo [insert_all](inserts/insert_all.ipynb) está organizado para preencher o banco de dados executando cada célula do notebook de forma sequencial. Ele reúne todos os scripts de inserção descritos anteriormente e garante que sejam executados na ordem correta.
+O arquivo [insert_all](insert_all.ipynb) está organizado para preencher o banco de dados executando cada célula do notebook de forma sequencial. Ele reúne todos os scripts de inserção descritos anteriormente e garante que sejam executados na ordem correta.
 
 Para começar:
 
-1. **Crie o banco de dados Postgres**
-2. **Execute o script do arquivo [create_database](docs/create_database.sql)** para criar os esquemas necessários no banco
-3. **Atualize as configurações de conexão no arquivo [DATABASE_CONFIG](inserts/DATABASE_CONFIG.py)**
-4. Após confirmar a conexão bem-sucedida, **execute os blocos do notebook [insert_all](inserts/insert_all.ipynb) em ordem**, garantindo o carregamento completo dos dados no banco.
+1. **Crie o banco de dados no Neo4j**
+2. **Suba os CSVs no Neo4j Desktop**
+3. **Execute o script do arquivo [insert_all](insert_all.ipynb)** para criar os esquemas necessários no banco
+4. **Atualize as configurações de conexão no arquivo [DATABASE_CONFIG](DATABASE_CONFIG.py)**
 
 ## Consultas e Resultados
 
