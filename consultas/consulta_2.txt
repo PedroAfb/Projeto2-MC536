@@ -1,0 +1,43 @@
+MATCH (uc:UnidadeConservacao)<-[:Abrange]-(c:Cidade)
+WITH uc, count(c) AS num_cidades
+WHERE num_cidades = 1
+WITH collect(uc) AS ucs_exclusivas
+
+MATCH (c:Cidade)
+
+CALL {
+    WITH c
+    OPTIONAL MATCH (rd:RelatorioDesmatamento)-[:Ocorreu_Em]->(c)
+    WHERE rd IS NULL OR (rd.ano >= 2008 AND rd.ano <= 2024)
+    RETURN sum(rd.area_km2) AS area_desmatada_cidade
+}
+
+CALL {
+    WITH c, ucs_exclusivas
+    MATCH (rd:RelatorioDesmatamento)-[:Ocorreu_Em]->(uc:UnidadeConservacao)
+    WHERE rd.ano >= 2008 AND rd.ano <= 2024
+      AND uc IN ucs_exclusivas
+      AND (c)-[:Abrange]->(uc)
+    RETURN sum(rd.area_km2) AS area_desmatada_uc
+}
+
+WITH c,
+     coalesce(area_desmatada_cidade, 0.0) AS area_desmatada_cidade,
+     coalesce(area_desmatada_uc, 0.0) AS area_desmatada_uc
+
+WITH c, area_desmatada_cidade, area_desmatada_uc, 
+    (area_desmatada_cidade + area_desmatada_uc) AS area_desmatada_total
+WHERE area_desmatada_total > 0
+
+WITH c, area_desmatada_cidade, area_desmatada_uc, area_desmatada_total,
+     (area_desmatada_uc * 100.0 / area_desmatada_total) AS percentual_uc_exclusiva
+
+RETURN
+    c.id_cidade AS id_cidade,
+    c.nome AS nome_cidade,
+    round(area_desmatada_cidade, 2) AS area_desmatada_cidade,
+    round(area_desmatada_uc, 2) AS area_desmatada_uc,
+    round(area_desmatada_total, 2) AS area_desmatada_total,
+    round(percentual_uc_exclusiva, 2) AS percentual_uc_exclusiva
+
+ORDER BY percentual_uc_exclusiva DESC

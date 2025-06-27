@@ -1,0 +1,22 @@
+MATCH (uc:UnidadeConservacao)
+WHERE uc.area_amazonia_ha > 0
+MATCH (uc)<-[:Abrange]-(:Cidade)-[:Pertence]->(e:Estado)
+OPTIONAL MATCH (rd:RelatorioDesmatamento)-[:Ocorreu_Em]->(uc)
+WITH uc, e, sum(coalesce(rd.area_km2, 0.0)) AS total_desmatado_uc
+
+MATCH (e)-[:Pertence]->(r:RegiaoAdministrativa)
+WHERE r.nome IN ['Norte', 'Nordeste', 'Centro-Oeste']
+WITH r.nome AS regiao, 
+     uc.area_amazonia_ha / 100.0 AS area_uc_km2,
+     total_desmatado_uc
+
+WITH regiao,
+     sum(area_uc_km2) AS area_km2_amazonia,
+     sum(total_desmatado_uc) AS total_desmatado
+
+RETURN
+    regiao,
+    round(area_km2_amazonia, 2) AS area_km2_amazonia,
+    round(total_desmatado, 2) AS total_desmatado,
+    round((total_desmatado * 100.0 / area_km2_amazonia), 2) AS percentual_desmatado
+ORDER BY percentual_desmatado DESC

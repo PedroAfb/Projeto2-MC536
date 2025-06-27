@@ -1,0 +1,58 @@
+MATCH (regiao:RegiaoAdministrativa {nome: 'Amazônia Legal'})
+MATCH (estado:Estado)-[:Pertence]->(regiao)
+WITH regiao, collect(estado) AS estados_da_al
+
+CALL {
+    WITH estados_da_al
+    UNWIND estados_da_al AS estado_da_al
+    MATCH (cidade:Cidade)-[:Pertence]->(estado_da_regiao)
+    MATCH (estacao:EstacaoMeteorologica)-[:Pertence]->(cidade)
+    MATCH (estacao)-[d:Dados_Meteorologicos]->(cidade)
+    WHERE d.temperatura_max IS NOT NULL AND d.temperatura_min IS NOT NULL
+    
+    WITH d.data_horario_coleta.year AS ano, (d.temperatura_max + d.temperatura_min) / 2 AS temperatura_media
+    
+    WITH ano, avg(temperatura_media) AS temperatura_media_regiao
+    ORDER BY ano
+
+    RETURN collect({ano: ano, temperatura_media_regiao: round(temperatura_media_regiao, 2)}) AS dados_temperatura_al
+}
+
+CALL {
+    WITH estados_da_al
+    UNWIND estados_da_al AS estado_da_al
+    MATCH (estado_da_al)-[:Possui]->(rq:RelatorioFocoQueimadas)
+
+    WITH rq.mes_ano.year AS ano, sum(rq.quantidade) AS total_focos_regiao
+    ORDER BY ano
+    RETURN collect({ano: ano, total_focos_regiao: total_focos_regiao}) AS dados_focos_al
+}
+
+CALL {
+    WITH regiao
+    MATCH (regiao)-[:Possui]->(re:RelatorioEmissaoGasesAnual)
+    
+    WITH re.ano AS ano, sum(
+        re.co2_1a_ordem + re.co2_2a_ordem + re.co2_por_fogo + 
+        re.co2_por_decaimento + re.ch4_eq_fogo + re.n2o_eq_fogo
+    ) AS total_emissao_gases
+    ORDER BY ano
+    RETURN collect({ano: ano, total_emissao_gases: total_emissao_gases}) AS dados_emissao_al
+}
+
+UNWIND dados_emissao_al AS emissao_anual
+
+WITH emissao_anual,
+     [item IN dados_temperatura_al WHERE item.ano = emissao_anual.ano | item.temperatura_media_regiao][0] AS temperatura_media_regiao,
+     [item IN dados_focos_al WHERE item.ano = emissao_anual.ano | item.total_focos_regiao][0] AS total_focos_regiao
+
+WHERE emissao_anual.total_emissao_gases IS NOT NULL
+  AND temperatura_media_regiao IS NOT NULL
+  AND total_focos_regiao IS NOT NULL
+
+RETURN
+    emissao_anual.ano AS ano,
+    emissao_anual.total_emissao_gases AS total_emissao_gases,
+    temperatura_media_regiao,
+    total_focos_regiao
+ORDER BY ano
