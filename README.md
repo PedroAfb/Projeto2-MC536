@@ -51,7 +51,7 @@ Esse projeto tem como objetivo reunir dados relacionados direta ou indiretamente
 
 ### Modelo Físico
 
-- [SQL DDL Script](docs/create_database.sql)
+- São todos os nossos arquivos insert_*
 
 ## Migração do Postgres para o Neo4j
 
