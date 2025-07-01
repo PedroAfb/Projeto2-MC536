@@ -10,9 +10,13 @@ CALL {
     MATCH (estacao)-[d:Dados_Meteorologicos]->(cidade)
     WHERE d.temperatura_max IS NOT NULL AND d.temperatura_min IS NOT NULL
     
-    WITH d.data_horario_coleta.year AS ano, (d.temperatura_max + d.temperatura_min) / 2 AS temperatura_media
+    WITH estado_da_regiao, d.data_horario_coleta.year AS ano, 
+         avg(d.temperatura_max) as temp_max_media_estado,
+         avg(d.temperatura_min) as temp_min_media_estado
     
-    WITH ano, avg(temperatura_media) AS temperatura_media_regiao
+    WITH ano, (temp_max_media_estado + temp_min_media_estado) / 2.0 AS temp_media_do_estado
+
+    WITH ano, avg(temp_media_do_estado) AS temperatura_media_regiao
     ORDER BY ano
 
     RETURN collect({ano: ano, temperatura_media_regiao: round(temperatura_media_regiao, 2)}) AS dados_temperatura_al
